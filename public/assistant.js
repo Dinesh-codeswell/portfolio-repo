@@ -28,9 +28,9 @@
     { href: 'https://github.com/Dinesh-codeswell/music-profile-scraper', title: 'Music profile scraper & EPK', meta: 'zero-auth · FastAPI · MCP server',
       re: /music|spotify|apple music|epk|artist|mcp/i,
       follow: ['How does zero-auth scraping work?', 'What is the MCP server for?'] },
-    { href: 'https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current', title: 'Automated forex trading system', meta: '85% signal accuracy · Python · SMA',
-      re: /forex|trading|sma|yfinance|price point/i,
-      follow: ['How did you achieve 85% signal accuracy?', 'What was the yfinance pipeline?'] }
+    { href: 'https://job-dashboard-dun-eight.vercel.app/', title: 'Job Dashboard — community job board', meta: '1,000+ daily users · live openings · Next.js',
+      re: /job|dashboard|hiring|openings|community/i,
+      follow: ['How many people use it daily?', 'How often do listings refresh?'] }
   ];
 
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

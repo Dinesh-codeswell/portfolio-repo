@@ -73,7 +73,7 @@ export default function Page() {
       <span className="cn-m"><span className="cn-w"><span className="a">experiments</span></span></span>
       <span className="cn-m"><span className="cn-w">.</span></span>
     </h1>
-    <p>Building platforms and algorithms that scale: from a multi-agent terminal harness to ML trading pipelines and music intelligence. Five selected projects — all open source.</p>
+    <p>Building platforms and algorithms that scale: from a multi-agent terminal harness to a music-intelligence studio and a community job board. Five selected projects — all open source.</p>
   </header>
 
   <main className="wrap">
