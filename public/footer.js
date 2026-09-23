@@ -31,12 +31,12 @@
             '<div class="gf-col"><span class="gf-h">explore</span>' +
               '<a href="/work">work</a>' +
               '<a href="/beyond">lil about me</a>' +
-              '<a href="/lab">art lab</a>' +
+              '<a href="/now">now</a>' +
               '<a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">\u00e9 r\u00e9sum\u00e9 \u2193</a>' +
             '</div>' +
             '<div class="gf-col"><span class="gf-h">connect</span>' +
               '<a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin \u2197</a>' +
-              '<a href="mailto:dineshkatal.work@gmail.com">email \u2197</a>' +
+              '<button type="button" class="gf-copy" data-copy-email="dineshkatal.work@gmail.com" title="Click to copy email">email <span class="gf-copied" aria-hidden="true">copied \u2713</span></button>' +
               '<a href="https://github.com/Dinesh-codeswell" target="_blank" rel="noopener">github \u2197</a>' +
             '</div>' +
             '<div class="gf-col"><span class="gf-h">status</span>' +
@@ -68,6 +68,21 @@
     }, { threshold: 0.08 });
     fio.observe(f);
   }
+
+  // ── Click-to-copy email ──
+  f.querySelectorAll('.gf-copy').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var addr = btn.getAttribute('data-copy-email') || '';
+      var done = function () { btn.classList.add('did'); setTimeout(function () { btn.classList.remove('did'); }, 1600); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(addr).then(done, function () { window.location.href = 'mailto:' + addr; });
+      } else {
+        var t = document.createElement('textarea'); t.value = addr; document.body.appendChild(t); t.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(t);
+      }
+    });
+  });
 
   // ── Live clock (Gurugram, India = IST = Asia/Kolkata) ──
   var el = f.querySelector('#gfClock');

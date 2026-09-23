@@ -88,12 +88,7 @@ export default function Page() {
         <div className="tags"><span className="tag">Electron</span><span className="tag">React</span><span className="tag">TypeScript</span><span className="tag">Pixi.js</span></div>
       </div>
       <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
-        <div className="mini-term" aria-hidden="true">
-          <div className="mini-bar"><i></i><i></i><i></i><span>fried-viper — floor</span></div>
-          <div className="mini-row"><span className="mini-dot g"></span>claude<span className="mini-msg">refactored middle-out core ✓</span></div>
-          <div className="mini-row"><span className="mini-dot y"></span>codex<span className="mini-msg">inbox: 3 tasks claimed</span></div>
-          <div className="mini-row"><span className="mini-dot b"></span>grok<span className="mini-msg">shipping v0.4 to the floor…</span></div>
-        </div>
+        <video className="case-rec" src="/assets/recordings/fried-viper.mp4" poster="/assets/recordings/fried-viper-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Fried Viper screen recording" />
       </div></div>
     </a>
 
@@ -107,12 +102,7 @@ export default function Page() {
         <div className="tags"><span className="tag">Python</span><span className="tag">FastAPI</span><span className="tag">FFmpeg</span><span className="tag">React 19</span></div>
       </div>
       <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
-        <div className="mini-lyric" aria-hidden="true">
-          <div className="mini-eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <div className="mini-ln on">~ cause baby you're a firework ~</div>
-          <div className="mini-ln">come on show 'em what you're worth</div>
-          <span className="mini-1080">1080p · h.264</span>
-        </div>
+        <video className="case-rec" src="/assets/recordings/lyrical-dashboard.mp4" poster="/assets/recordings/lyrical-dashboard-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Lyrical video editing suite screen recording" />
       </div></div>
     </a>
 
@@ -126,10 +116,7 @@ export default function Page() {
         <div className="tags"><span className="tag">FastAPI</span><span className="tag">MCP Protocol</span><span className="tag">Docker</span></div>
       </div>
       <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
-        <div className="mini-music" aria-hidden="true">
-          <div className="mini-profile"><span className="mini-av"></span><div><b>artist intelligence</b><small>monthly listeners · 2.4M</small></div></div>
-          <div className="mini-chips"><span>spotify</span><span>apple music</span><span>mcp server</span></div>
-        </div>
+        <video className="case-rec" src="/assets/recordings/music-scraper.mp4" poster="/assets/recordings/music-scraper-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Music profile scraper screen recording" />
       </div></div>
     </a>
 
@@ -143,31 +130,21 @@ export default function Page() {
         <div className="tags"><span className="tag">React 18</span><span className="tag">TypeScript</span><span className="tag">GraphQL</span><span className="tag">TanStack Query</span></div>
       </div>
       <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
-        <div className="mini-ani" aria-hidden="true">
-          <div className="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <div className="mini-cmd">⌘K search anime + manga…</div>
-        </div>
+        <video className="case-rec" src="/assets/recordings/aniquest.mp4" poster="/assets/recordings/aniquest-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="AniQuest screen recording" />
       </div></div>
     </a>
 
-    {/* 05 Forex Trading System */}
-    <a className="case" href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener">
+    {/* 05 Job Dashboard */}
+    <a className="case" href="https://github.com/Dinesh-codeswell/Job-Dashboard" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">05</div>
-        <div className="meta"><span className="co">forex trading system</span><span className="dot">·</span><span>2023 · kharagpur</span><span className="dot">·</span><span>algo trading</span></div>
-        <div className="ttl">automated trading <span className="a">pipeline &amp; signal backtesting.</span></div>
-        <p className="lede">Engineered a data pipeline processing 10,000+ EUR/USD price points daily with yfinance, generating SMA crossover signals at 85% backtested accuracy with 90% uptime.</p>
-        <div className="tags"><span className="tag">Python</span><span className="tag">yfinance</span><span className="tag">SMA Crossover</span><span className="tag">Backtesting</span></div>
+        <div className="meta"><span className="co">job dashboard</span><span className="dot">·</span><span>2026 · live</span><span className="dot">·</span><span>community</span></div>
+        <div className="ttl">a job board the community <span className="a">actually uses, daily.</span></div>
+        <p className="lede">Live job openings refreshed every hour — 1,000+ people check it daily. Built to turn scattered postings into one reliable, community-first dashboard.</p>
+        <div className="tags"><span className="tag">Next.js</span><span className="tag">Vercel</span><span className="tag">Hourly Refresh</span><span className="tag">1,000+ DAU</span></div>
       </div>
       <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
-        <div className="mini-forex" aria-hidden="true">
-          <svg viewBox="0 0 260 90" preserveAspectRatio="none">
-            <polyline points="0,70 26,62 52,66 78,48 104,54 130,38 156,44 182,26 208,32 234,18 260,22" fill="none" stroke="#fff" strokeWidth="2" />
-            <circle cx="130" cy="38" r="3.4" fill="#5fd29a" />
-            <circle cx="208" cy="32" r="3.4" fill="#ff8f8f" />
-          </svg>
-          <span className="mini-buy">buy · SMA 50&gt;200</span>
-        </div>
+        <video className="case-rec" src="/assets/recordings/job-dashboard.mp4" poster="/assets/recordings/job-dashboard-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Job Dashboard screen recording" />
       </div></div>
     </a>
 
@@ -334,6 +311,7 @@ export default function Page() {
   .case:hover .cover.shot img,.case:hover .cover.shot video{transform:scale(1.04);}
   /* dark live-project demo tiles (pure CSS, no external assets) */
   .cover.dark-demo{display:grid;place-items:center;background:linear-gradient(150deg,#1c2735,#0a1628);border:1px solid rgba(255,255,255,.1);}
+  .case-rec{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
   .mini-term,.mini-lyric,.mini-music,.mini-ani,.mini-forex{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:9px;padding:clamp(20px,3vw,36px);font-family:"Geist Mono",monospace;color:#fff;}
   .mini-bar{display:flex;align-items:center;gap:5px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.14);}
   .mini-bar i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.25);}

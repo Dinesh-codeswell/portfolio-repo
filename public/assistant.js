@@ -195,7 +195,7 @@
     CASES.forEach(function (c) { if (matched.length < 2 && c.re.test(text)) matched.push(c); });
     matched.forEach(function (c) { log.appendChild(caseCard(c)); });
     if (/\b(resume|résumé|cv|hire|hiring|reach|contact|connect|email|get in touch|work with)\b/i.test(text)) {
-      log.appendChild(actionCard('/assets/files/Dinesh_Linjara_Resume.pdf', 'dinesh’s résumé', 'pdf · download', 'download →'));
+      log.appendChild(actionCard('/assets/files/Dinesh_Resume.pdf', 'dinesh’s résumé', 'pdf · download', 'download →'));
     }
     var qs = [];
     matched.forEach(function (c) { (c.follow || []).forEach(function (f) { if (qs.length < 3 && qs.indexOf(f) < 0) qs.push(f); }); });

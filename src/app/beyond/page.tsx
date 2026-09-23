@@ -87,9 +87,9 @@ export default function Page() {
       </div>
       <div className="chat" id="chat">
         <div className="row"><div className="msg">Hi, I'm <b>Dinesh</b> · product manager &amp; data analyst, based in Gurugram.</div></div>
-        <div className="row"><div className="msg photo"><img src="../assets/dinesh_profile.png" alt="Dinesh Kumar Katal" loading="lazy" /></div></div>
+        <div className="row"><div className="msg photo"><img src="../assets/dinesh_profile.webp" alt="Dinesh Kumar Katal" loading="lazy" /></div></div>
         <div className="row"><div className="msg">I turn <b>messy datasets</b> into product decisions — SQL, Python, and a healthy bias for shipping.</div></div>
-        <div className="row"><div className="msg">Currently building at <b>Beyond Career</b>: a platform serving <b>20,000+ students</b> with 99.9% uptime.</div></div>
+        <div className="row"><div className="msg">Currently building at <b>Songdew</b> — AI-driven onboarding and fraud-detection for a music &amp; artist platform. Last up: <b>Beyond Career</b>, serving <b>30,000+ students</b> at 99.9% uptime.</div></div>
         <div className="row"><div className="msg"><b>Jabalpur → IIT Kharagpur → Gurugram</b>. Engineering degree, product career.</div></div>
         <div className="row"><div className="msg">Off the clock I <b>ship open-source projects</b> — from AI agents to render pipelines.</div></div>
         <div className="row"><div className="msg">Also a <b>Top 0.1% mentor on Topmate</b> — resume reviews and PM career chats.</div></div>
@@ -115,7 +115,7 @@ export default function Page() {
         </ul>
         <div className="clients">
           <span className="kick">worked with <span className="s">/</span></span>
-          <div className="client-line"><a href="https://www.beyondcareer.online/" target="_blank" rel="noopener">Beyond Career</a> <span className="dot">.</span> <a href="https://unstop.com/mentor/DineshKatal" target="_blank" rel="noopener">Unstop</a> <span className="dot">.</span> <a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">Topmate</a> <span className="dot">.</span> <a href="https://www.edupolisedtech.com/" target="_blank" rel="noopener">Edupolis</a></div>
+          <div className="client-line"><a href="https://www.songdew.com/" target="_blank" rel="noopener">Songdew</a> <span className="dot">.</span> <a href="https://www.beyondcareer.online/" target="_blank" rel="noopener">Beyond Career</a> <span className="dot">.</span> <a href="https://unstop.com/mentor/DineshKatal" target="_blank" rel="noopener">Unstop</a> <span className="dot">.</span> <a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">Topmate</a></div>
         </div>
       </div>
 
@@ -144,8 +144,8 @@ export default function Page() {
         <span className="more-k reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>· beyond the desk</span>
         <h2 className="more-h"><span className="ln"><span className="ln-i" style={{ transition: "none", transform: "translateY(118%)" }}>led teams &amp; <span className="a">built community.</span></span></span></h2>
         <figure className="card-photo reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>
-          <img src="../assets/conferences/conf-1.avif" alt="Dinesh Kumar Katal — Athletics Captain, Nehru Hall, IIT Kharagpur" />
-          <figcaption>athletics captaincy (inter-hall bronze) &amp; student mentorship · IIT Kharagpur</figcaption>
+          <img src="../assets/photos/convocation.jpg" alt="Dinesh Kumar Katal receiving a medal at the 71st Convocation, IIT Kharagpur" />
+          <figcaption>71st convocation · medal recipient · IIT Kharagpur</figcaption>
         </figure>
       </div>
     </section>
@@ -445,7 +445,6 @@ export default function Page() {
         ['Dinesh has a keen eye for excellent product mechanics, analytics, and UX workflow improvements.','Prof. Mining Engg','IIT Kharagpur Mentor'],
         ['Dinesh led our growth analytics with incredible rigor, using SQL to improve our candidate matchmaking conversions by 45%.','Co-Founder','Beyond Career'],
         ['Dinesh designed TIMETINT, a brilliant color-changing pharmaceutical label that solved a huge user safety problem.','Inter-hall General Championship','Product Design Gold Jury'],
-        ['An exceptional business analyst intern who optimized our campaigns, reducing our CAC by 15% and boosting course conversions.','Marketing Lead','Edupolis EdTech'],
         ['His trading data pipelines processed 10,000+ data points daily with 95% uptime, demonstrating outstanding technical and analysis skills.','Project Evaluator','Financial Analytics Lab']
       ];
       var rq=document.getElementById('rq'), rby=document.getElementById('rby'), rdots=document.getElementById('rdots'), wrap=document.getElementById('rquote');
@@ -568,7 +567,7 @@ export default function Page() {
   /* conferences photo */
   .card-photo{margin:clamp(20px,3vh,34px) 0 0;position:relative;border-radius:16px;overflow:hidden;
     box-shadow:0 26px 56px -34px rgba(34,39,30,.45);}
-  .card-photo img{display:block;width:100%;max-height:52vh;object-fit:cover;object-position:center 24%;}
+  .card-photo img{display:block;width:100%;max-height:52vh;object-fit:cover;object-position:center 38%;}
   .card-photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:36px 18px 14px;
     font-family:"Geist Mono";font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#fff;
     background:linear-gradient(transparent,rgba(20,18,16,.62));}

@@ -80,6 +80,11 @@ export default function Page() {
         <div className="qcell"><span className="qk">focus</span><span className="qv">AI · B2B SaaS · enterprise · agentic workflows</span></div>
         <div className="qcell"><span className="qk">based</span><span className="qv">Gurugram, India</span></div>
       </div>
+      <div className="qspec qspec-mentor" aria-label="mentorship credentials">
+        <div className="qcell"><span className="qk">topmate</span><span className="qv"><b>top 0.1%</b> mentor · 4.9/5 ★ · 2,000+ mentees</span></div>
+        <div className="qcell"><span className="qk">unstop</span><span className="qv"><b>5.0</b> rating · 85% attendance · 800+ engagements</span></div>
+        <div className="qcell"><span className="qk">badges</span><span className="qv">people's choice · curator · hustler · community care</span></div>
+      </div>
     </div>
   </header>
 
@@ -128,9 +133,9 @@ export default function Page() {
         <div className="wbody"><span className="wtag">music profile scraper · live · 2026</span><h3>artist intelligence, zero auth.</h3><p>Spotify/Apple ingestion, EPK generation and an MCP server for music intelligence.</p></div>
         <span className="wgo">↗</span>
       </a>
-      <a className="wcard cn-tilt" style={{ "--i": "3", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener" data-cine-tilt="1">
-        <div className="wm"><span className="wnum">85%</span><span className="wunit">signal accuracy</span></div>
-        <div className="wbody"><span className="wtag">forex trading system · python · 2023</span><h3>automated trading pipeline.</h3><p>10,000+ price points daily with SMA crossover signals and backtesting.</p></div>
+      <a className="wcard cn-tilt" style={{ "--i": "3", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://job-dashboard-dun-eight.vercel.app/" target="_blank" rel="noopener" data-cine-tilt="1">
+        <div className="wm"><span className="wnum">1,000+</span><span className="wunit">daily users</span></div>
+        <div className="wbody"><span className="wtag">job dashboard · live · 2026</span><h3>a job board the community actually uses.</h3><p>Live openings refreshed hourly — 1,000+ people check it every day.</p></div>
         <span className="wgo">↗</span>
       </a>
     </div>
@@ -322,7 +327,7 @@ export default function Page() {
   <Script src="/smooth-scroll.js"  strategy="afterInteractive" />
 
 
-<footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer>
+<footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="/now">now</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><button type="button" className="gf-copy" data-copy-email="dineshkatal.work@gmail.com" title="Click to copy email">email <span className="gf-copied" aria-hidden="true">copied ✓</span></button></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer>
 <style dangerouslySetInnerHTML={{ __html: `:root{
     --paper:var(--t-paper); --card:#ffffff; --ink:var(--t-ink); --soft:var(--t-ink-soft); --muted:var(--t-ink-faint);
     --accent:#2f6cb8; --pop:#0083E7; --sage:#5fd29a; --gold:var(--t-gold); --line:rgba(20,32,52,.12);
@@ -384,6 +389,9 @@ export default function Page() {
   .qload .qmeta{animation:fadeup .8s cubic-bezier(.16,1,.3,1) .5s forwards;}
   @keyframes fadeup{to{opacity:1;transform:none;}}
   .qident{font-family:var(--mono);font-size:13.5px;letter-spacing:.03em;color:var(--soft);}
+  .qspec-mentor{margin-top:10px;}
+  .qspec-mentor .qk{color:var(--accent);}
+  .qspec-mentor .qv b{font-weight:600;}
   .qident b{color:var(--ink);font-weight:500;} .qident .dash{color:var(--muted);margin:0 11px;}
   .qspec{margin-top:22px;display:flex;flex-wrap:wrap;gap:18px 38px;}
   .qcell{display:flex;flex-direction:column;gap:7px;}
@@ -520,7 +528,24 @@ export default function Page() {
 
   @media(max-width:760px){.close{padding:32px 26px;}.cta-row{align-items:stretch;}}
   @media(max-width:480px){.cta-row{flex-direction:column;}.qident .sep{margin:0 6px;}}
-  @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none;}.bgfx{animation:none !important;}#fx{display:none !important;}.mag{transition:none;}}` }} />
+  @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none;}.bgfx{animation:none !important;}#fx{display:none !important;}.mag{transition:none;}}
+
+  /* ─── print / save-as-pdf ─── */
+  @media print{
+    #gnav,.snav,#gnavMenu,#fx,.bgfx,.gf-cloud,.cloudfield,#aiSplash,footer,.gf,.ink-btn,.cta-row,.mag,.wr-all,.cal-pop{display:none !important;}
+    html,body{background:#fff !important;color:#111 !important;overflow:visible !important;}
+    body{font-size:12.5px;line-height:1.5;}
+    .wrap{max-width:100%;padding:0 8mm;}
+    section{padding:16px 0 !important;}
+    .worksec,.closesec{break-inside:avoid-page;}
+    .wcard,.close,.wr-post{box-shadow:none !important;background:#fff !important;border-color:#ddd !important;break-inside:avoid;}
+    .qhead{font-size:30px !important;}
+    .rv{opacity:1 !important;transform:none !important;transition:none !important;}
+    a{color:#111 !important;text-decoration:none !important;}
+    a[href^="http"]::after{content:" (" attr(href) ")";font-size:9px;color:#666;word-break:break-all;}
+    a[href^="mailto"]::after,a[href^="/assets"]::after{content:"";}
+    h2{break-after:avoid;}
+  }` }} />
     </>
   );
 }

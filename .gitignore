@@ -52,6 +52,12 @@ temp/
 # Personal documents — not part of the site (resume served from public/assets/files)
 CV/
 
+# Scraper dumps & raw media — not needed for the build or deployment
+*.json.bak
+unstop.com_*.json
+portfolio-omega-seven-69.vercel.app_*.json
+Fried viper.webm
+
 # Reverse-engineering research — not needed for the build or deployment
 docs/
 

@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { useEffect } from "react";
+import { PersonSchema } from "./schema";
 
 export default function Page() {
   useEffect(() => {
@@ -42,6 +43,7 @@ export default function Page() {
 
   return (
     <>
+      <PersonSchema />
       <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
 
 {/* splash intro */}
@@ -100,7 +102,7 @@ export default function Page() {
     <div className="eyebrow">dinesh kumar katal · gurugram, india</div>
     <div className="hey" aria-label="hi, i'm dinesh"><span className="hey-slot"><span className="hey-w" id="heyW">hi</span></span>, i'm dinesh</div>
     <h1 className="hl"><span className="ln"><span>product manager for</span></span><span className="ln l2"><span>data & AI-driven products.</span></span></h1>
-    <p className="lede"><b>IIT Kharagpur dual-degree grad</b> combining technical depth with product analytics: I launch platforms serving 20k+ users, optimize conversion funnels, and build machine learning engines.</p>
+    <p className="lede"><b>IIT Kharagpur dual-degree grad</b> combining technical depth with product analytics: I launch platforms serving 30k+ users, optimize conversion funnels, and build machine learning engines.</p>
     <div className="cta-row">
       <a className="ink-btn primary" id="skip" href="mailto:dineshkatal.work@gmail.com"><span className="lbl">let's talk <span className="arw">→</span></span></a>
       <a className="ink-btn" id="bookCall" href="https://calendly.com/dineshkatal-work/book-1-1-session" target="_blank" rel="noopener"><span className="lbl">book a call <span className="arw">↗</span></span></a>
@@ -134,7 +136,7 @@ export default function Page() {
 
 
 {/* big belief banner (air-style, over the sky) — top, right under the hero */}
-<section className="ai-sec sw-sec">
+<section className="ai-sec sw-sec" id="projects">
   <div className="ai-wrap">
     <div className="sw-head ai-rv">
       <h2>Selected <em>work.</em></h2>
@@ -151,84 +153,169 @@ export default function Page() {
     <div className="sw-grid">
       <a className="sw-card ai-rv feat" data-f="agentic ai" href="https://github.com/Dinesh-codeswell/fried-viper" target="_blank" rel="noopener" style={{ viewTransitionName: "swc1" }}>
         <div className="sw-media app">
-          <div className="proj-demo pd-viper" aria-hidden="true">
-            <div className="pd-term">
-              <div className="pd-bar"><i></i><i></i><i></i><span>fried-viper — hacker hostel floor</span></div>
-              <div className="pd-agent"><span className="pd-dot d1"></span>claude<span className="pd-msg">refactored middle-out core ✓</span></div>
-              <div className="pd-agent"><span className="pd-dot d2"></span>codex<span className="pd-msg">inbox: 3 tasks claimed</span></div>
-              <div className="pd-agent"><span className="pd-dot d3"></span>grok<span className="pd-msg">shipping v0.4 to the floor…</span></div>
-              <div className="pd-cursor">▍</div>
-            </div>
-          </div>
+          <video className="sw-rec" src="/assets/recordings/fried-viper.mp4" poster="/assets/recordings/fried-viper-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Fried Viper screen recording" />
           <span className="sw-badge">fried viper</span>
         </div>
         <div className="sw-body"><h3 className="sw-ttl">A hacker hostel of <em>self-coordinating AI agents.</em></h3><div className="sw-meta">multi-agent terminal harness<br /><b>electron · react · typescript · pixi.js</b></div></div>
       </a>
       <a className="sw-card ai-rv" data-f="python ai web" href="https://github.com/Dinesh-codeswell/lyrical-video" target="_blank" rel="noopener" style={{ viewTransitionName: "swc2" }}>
         <div className="sw-media app">
-          <div className="proj-demo pd-lyric" aria-hidden="true">
-            <div className="pd-bars"><i style={{ animationDelay: "0s" }}></i><i style={{ animationDelay: ".12s" }}></i><i style={{ animationDelay: ".24s" }}></i><i style={{ animationDelay: ".36s" }}></i><i style={{ animationDelay: ".48s" }}></i><i style={{ animationDelay: ".6s" }}></i><i style={{ animationDelay: ".72s" }}></i></div>
-            <div className="pd-line on">~ cause baby you're a firework ~</div>
-            <div className="pd-line">come on show 'em what you're worth</div>
-            <span className="pd-1080">1080p · h.264</span>
-          </div>
+          <video className="sw-rec" src="/assets/recordings/lyrical-dashboard.mp4" poster="/assets/recordings/lyrical-dashboard-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Lyrical video editing suite screen recording" />
           <span className="sw-badge">lyrical video</span>
         </div>
         <div className="sw-body"><h3 className="sw-ttl">Cinematic lyric videos, <em>rendered from raw audio.</em></h3><div className="sw-meta">web studio · desktop gui · cli<br /><b>python · fastapi · ffmpeg · ai transcription</b></div></div>
       </a>
       <a className="sw-card ai-rv" data-f="python data web" href="https://github.com/Dinesh-codeswell/music-profile-scraper" target="_blank" rel="noopener" style={{ viewTransitionName: "swc3" }}>
         <div className="sw-media app">
-          <div className="proj-demo pd-music" aria-hidden="true">
-            <div className="pd-profile">
-              <span className="pd-av"></span>
-              <div><b>artist intelligence</b><small>monthly listeners · 2.4M</small></div>
-            </div>
-            <div className="pd-chips"><span>spotify</span><span>apple music</span><span>mcp server</span></div>
-          </div>
+          <video className="sw-rec" src="/assets/recordings/music-scraper.mp4" poster="/assets/recordings/music-scraper-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Music profile scraper screen recording" />
           <span className="sw-badge">live · music-profile-scraper</span>
         </div>
         <div className="sw-body"><h3 className="sw-ttl">Music intelligence studio, <em>zero auth, zero API keys.</em></h3><div className="sw-meta">fastapi · mcp protocol · docker<br /><b>spotify + apple ingestion → epk generator</b></div></div>
       </a>
       <a className="sw-card ai-rv" data-f="web" href="https://aniquest-snowy.vercel.app" target="_blank" rel="noopener" style={{ viewTransitionName: "swc4" }}>
         <div className="sw-media app">
-          <div className="proj-demo pd-ani" aria-hidden="true">
-            <div className="pd-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <div className="pd-cmd">⌘K search anime + manga…</div>
-          </div>
+          <video className="sw-rec" src="/assets/recordings/aniquest.mp4" poster="/assets/recordings/aniquest-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="AniQuest screen recording" />
           <span className="sw-badge">live · aniquest</span>
         </div>
         <div className="sw-body"><h3 className="sw-ttl">Anime discovery terminal <em>on AniList GraphQL.</em></h3><div className="sw-meta">react 18 · vite · typescript · tanstack query<br /><b>roulette · release calendar · binge lists</b></div></div>
       </a>
-      <a className="sw-card ai-rv" data-f="data" href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener" style={{ viewTransitionName: "swc5" }}>
+      <a className="sw-card ai-rv" data-f="web data" href="https://github.com/Dinesh-codeswell/Job-Dashboard" target="_blank" rel="noopener" style={{ viewTransitionName: "swc5" }}>
         <div className="sw-media app">
-          <div className="proj-demo pd-forex" aria-hidden="true">
-            <svg viewBox="0 0 260 90" preserveAspectRatio="none">
-              <polyline points="0,70 26,62 52,66 78,48 104,54 130,38 156,44 182,26 208,32 234,18 260,22" fill="none" stroke="#fff" strokeWidth="2" />
-              <circle cx="130" cy="38" r="3.4" fill="#5fd29a" />
-              <circle cx="208" cy="32" r="3.4" fill="#ff8f8f" />
-            </svg>
-            <span className="pd-buy">buy · SMA 50&gt;200</span>
-          </div>
-          <span className="sw-badge">forex trading system</span>
+          <video className="sw-rec" src="/assets/recordings/job-dashboard.mp4" poster="/assets/recordings/job-dashboard-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="Job Dashboard screen recording" />
+          <span className="sw-badge">live · job dashboard</span>
         </div>
-        <div className="sw-body"><h3 className="sw-ttl">Automated trading pipeline, <em>85% signal accuracy.</em></h3><div className="sw-meta">10,000+ price points daily · python<br /><b>sma crossover · yfinance · backtesting</b></div></div>
+        <div className="sw-body"><h3 className="sw-ttl">A job board the community <em>actually uses, daily.</em></h3><div className="sw-meta">1,000+ daily users · live openings, hourly refresh<br /><b>next.js · vercel · community-first</b></div></div>
       </a>
     </div>
   </div>
 </section>
 
-{/* Commented out Gauravi's Stats Pin Banner
+{/* stat banner — counts up on scroll (script-home-19 drives reveal + countup) */}
 <section className="ai-sec ai-banner ai-stat-pin" id="aiStatSec">
   <div className="ai-wrap">
-    <h2 className="ai-stat" id="aiStat" aria-label="6 years. 3 countries. 15+ projects. $71M in revenue.">
-      <span className="row"><span className="ln"><span className="num" data-to="6">0</span> years.</span></span>
-      <span className="row"><span className="ln"><span className="num" data-to="3">0</span> countries.</span></span>
-      <span className="row"><span className="ln"><span className="num" data-to="15">0</span>+ projects.</span></span>
-      <span className="row"><span className="ln em">$<span className="num" data-to="71">0</span>m in revenue.</span></span>
+    <h2 className="ai-stat" id="aiStat" aria-label="30k+ users served. 2k+ resumes scored. 400+ teams matched. 45% funnel lift.">
+      <span className="row"><span className="ln"><span className="num" data-to="30">0</span>k+ users served.</span></span>
+      <span className="row"><span className="ln"><span className="num" data-to="2">0</span>k+ resumes scored.</span></span>
+      <span className="row"><span className="ln"><span className="num" data-to="400">0</span>+ teams matched.</span></span>
+      <span className="row"><span className="ln em"><span className="num" data-to="45">0</span>% funnel lift.</span></span>
     </h2>
   </div>
 </section>
-*/}
+
+{/* ───── work experience — glass timeline with org logos, proof links & skill tags ───── */}
+
+<section className="ai-sec wx-sec" id="experience">
+  <div className="ai-wrap">
+    <div className="wx-head ai-rv">
+      <span className="eyebrow">— work experience —</span>
+      <h2 className="ai-big">where i've <em>shipped.</em></h2>
+      <p className="wx-sub">roles, ownership and the receipts behind them — every card links to proof of the work.</p>
+    </div>
+
+    <div className="wx-rail">
+
+      {/* ── Songdew Media (current) ── */}
+      <article className="wx-card ai-rv is-now">
+        <span className="wx-node" aria-hidden="true"></span>
+        <div className="wx-side">
+          <span className="wx-logo"><img src="/assets/logos/orgs/songdew_logo.png" alt="Songdew logo" loading="lazy" /></span>
+          <span className="wx-when">may 2025 — present</span>
+          <span className="wx-now">current</span>
+        </div>
+        <div className="wx-main">
+          <h3 className="wx-role">Product <em>Intern</em></h3>
+          <div className="wx-org">Songdew Media Private Limited · Gurugram, India</div>
+          <p className="wx-mission">music &amp; artist platform — epk, onboarding and trust &amp; safety</p>
+          <ul className="wx-points">
+            <li>revamped the <b>EPK module</b> — the lowest-engagement feature — driving <b>65% of new registering users</b> to complete profiles</li>
+            <li>built <b>AI-driven onboarding</b> personalizing the experience across modules, boosting engagement by <b>30%</b></li>
+            <li>engineered a <b>fraud-detection pipeline</b>, cutting fake/bot account registrations from <b>60% → 5%</b> daily</li>
+            <li>launched a targeted <b>email campaign</b> for the EPK module, lifting profile completion rates by <b>40%</b></li>
+          </ul>
+          <div className="wx-tags">
+            <span>product management</span><span>ai integration</span><span>onboarding</span><span>fraud detection</span><span>email marketing</span><span>user engagement</span><span>analytics</span>
+          </div>
+          <div className="wx-links">
+            <a href="https://www.songdew.com/" target="_blank" rel="noopener">songdew.com ↗</a>
+          </div>
+        </div>
+      </article>
+
+      {/* ── Beyond Career ── */}
+      <article className="wx-card ai-rv">
+        <span className="wx-node" aria-hidden="true"></span>
+        <div className="wx-side">
+          <span className="wx-logo"><img src="/assets/logos/orgs/beyondcareer_logo.jpg" alt="Beyond Career logo" loading="lazy" /></span>
+          <span className="wx-when">apr 2025 — apr 2026</span>
+        </div>
+        <div className="wx-main">
+          <h3 className="wx-role">Founding Member &amp; <em>Product Lead</em></h3>
+          <div className="wx-org">Beyond Career · Gurugram, India · Remote</div>
+          <p className="wx-mission">making traditional edtech smarter with ai-based solutions</p>
+          <ul className="wx-points">
+            <li>architected the end-to-end platform scaling to <b>30,000+ users</b> with <b>99.9% uptime</b> across 50+ API endpoints</li>
+            <li>built an ML matchmaking algorithm on <b>30+ parameters</b>, facilitating <b>400+ team formations</b> for competitions</li>
+            <li>drove sales-pipeline growth via <b>60+ college workshops</b> and 40+ webinars, optimizing LVR and conversion</li>
+            <li>developed an ATS engine parsing <b>2,000+ resumes</b> against 60+ criteria, boosting user scores by <b>35%</b> via NLP</li>
+            <li>led growth analytics over SQL funnels, improving ATS keyword matching by <b>45%</b></li>
+            <li>curated a hub of 50+ PM resources and 20+ books for a community of <b>1,000+ students</b></li>
+          </ul>
+          <div className="wx-tags">
+            <span>product analytics</span><span>python</span><span>sql</span><span>machine learning</span><span>nlp</span><span>growth analytics</span><span>user funnels</span><span>api development</span><span>jira</span><span>notion</span>
+          </div>
+          <div className="wx-links">
+            <a href="https://www.beyondcareer.online/" target="_blank" rel="noopener">live platform ↗</a>
+            <a href="https://www.beyondcareer.online/resume-ai" target="_blank" rel="noopener">resume-ai ↗</a>
+          </div>
+        </div>
+      </article>
+
+      {/* ── IIT KGP Teaching Assistant ── */}
+      <article className="wx-card ai-rv">
+        <span className="wx-node" aria-hidden="true"></span>
+        <div className="wx-side">
+          <span className="wx-logo"><img src="/assets/logos/orgs/indian_institute_of_technology_kharagpur_logo.jpg" alt="IIT Kharagpur logo" loading="lazy" /></span>
+          <span className="wx-when">aug 2024 — apr 2025</span>
+        </div>
+        <div className="wx-main">
+          <h3 className="wx-role">Teaching <em>Assistant</em></h3>
+          <div className="wx-org">Indian Institute of Technology, Kharagpur · Kharagpur, India</div>
+          <p className="wx-mission">supported academic instruction and student mentorship</p>
+          <ul className="wx-points">
+            <li>assisted professors in course delivery and academic assessment</li>
+            <li>mentored undergraduates in technical subjects and project guidance</li>
+            <li>conducted doubt-clearing sessions and tutorial classes; evaluated assignments with constructive feedback</li>
+          </ul>
+          <div className="wx-tags">
+            <span>mentorship</span><span>technical teaching</span><span>communication</span><span>student support</span>
+          </div>
+        </div>
+      </article>
+
+      {/* ── SWG IIT KGP ── */}
+      <article className="wx-card ai-rv">
+        <span className="wx-node" aria-hidden="true"></span>
+        <div className="wx-side">
+          <span className="wx-logo"><img src="/assets/logos/orgs/SWG.jpg" alt="Student Welfare Group logo" loading="lazy" /></span>
+          <span className="wx-when">nov 2022 — aug 2023</span>
+        </div>
+        <div className="wx-main">
+          <h3 className="wx-role">Student <em>Mentor</em></h3>
+          <div className="wx-org">Student Welfare Group, IIT Kharagpur · Kharagpur, India</div>
+          <p className="wx-mission">guided incoming students through academic and social integration</p>
+          <ul className="wx-points">
+            <li>mentored <b>10+ freshers</b> as their primary point of contact for academic success</li>
+            <li>developed personalized mentorship strategies; delivered orientation and ongoing campus support</li>
+          </ul>
+          <div className="wx-tags">
+            <span>mentorship</span><span>leadership development</span><span>student counseling</span><span>communication</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
 
 {/* work — full-width real screens & video, floating in the sky */}
 
@@ -259,6 +346,13 @@ export default function Page() {
         <div className="skill-row"><span className="skill-name"><span className="skill-idx">04</span><span className="skill-ttl">growth marketing</span></span><span className="skill-tools">acquisition · conversion optimization · CRM</span></div>
         <div className="skill-row"><span className="skill-name"><span className="skill-idx">05</span><span className="skill-ttl">machine learning</span></span><span className="skill-tools">predictive modeling · NLP · Python</span></div>
         <div className="skill-row"><span className="skill-name"><span className="skill-idx">06</span><span className="skill-ttl">product tools</span></span><span className="skill-tools">Mixpanel · Amplitude · HubSpot · Figma</span></div>
+      </div>
+    </div>
+    {/* toolbelt — full stack from the resume, mono chips */}
+    <div className="toolbelt ai-rv">
+      <span className="toolbelt-k">toolbelt</span>
+      <div className="toolbelt-chips">
+        <span>jira</span><span>notion</span><span>figma</span><span>git</span><span>hubspot</span><span>firebase</span><span>power bi</span><span>tableau</span><span>google analytics</span><span>mixpanel</span><span>amplitude</span><span>excel</span><span>matplotlib</span><span>seaborn</span><span>api integration</span><span>google workspace</span>
       </div>
     </div>
   </div>
@@ -485,11 +579,11 @@ export default function Page() {
     <a className="abtme-card ai-rv" href="/beyond" aria-label="more about dinesh - read the full story">
       <span className="abtme-aur" aria-hidden="true"></span><span className="abtme-aur2" aria-hidden="true"></span>
       <span className="abtme-photo">
-        <img src="/assets/dinesh_profile.png" alt="Dinesh Kumar Katal" loading="lazy" />
+        <img src="/assets/dinesh_profile.webp" alt="Dinesh Kumar Katal" loading="lazy" />
         <span className="abtme-cap">iit kharagpur → gurugram</span>
       </span>
       <div className="abtme-copy">
-        <p>product manager and data analyst with an <span className="pull">engineer's grounding.</span> at beyond career i took a platform from early days to <span className="pull">20,000+ users</span>; off the clock i ship open-source projects, mentor aspiring PMs on topmate, and turn messy datasets into decisions.</p>
+        <p>product manager and data analyst with an <span className="pull">engineer's grounding.</span> at beyond career i grew a platform from early days to <span className="pull">30,000+ users</span>; now at songdew i build ai-driven onboarding and fraud-detection, mentor aspiring PMs on topmate, and ship open-source projects.</p>
       </div>
     </a>
   </div>
@@ -497,7 +591,7 @@ export default function Page() {
 
 {/* ===== testimonials — "The Wall" (PLACEHOLDER COPY: swap quotes/names with real recommendations before publishing) ===== */}
 
-<section className="ai-sec tmn">
+<section className="ai-sec tmn" id="testimonials">
   <div className="ai-wrap">
     <div className="ai-rv">
       <div className="eyebrow" style={{ translate: "none", rotate: "none", scale: "none", opacity: "1", transform: "translate(0px, 0px)" }}>what people say</div>
@@ -505,16 +599,22 @@ export default function Page() {
     </div>
     <div className="tmn-rows">
       <div className="tmn-row r1"><div className="tmn-track">
-        <article className="tmn-card"><p>Today's session with Beyond Career brought <span className="pull">instant clarity</span> to concepts I'd been struggling with for days. Their intuitive, practical style made even complex ideas feel simple. The roadmap they shared gave me a step-by-step approach for my specific goals.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/mansi.jpeg" alt="Mansi Agarwal" loading="lazy" /></span><div><div className="tmn-nm">Mansi Agarwal</div><div className="tmn-rl">IIM Indore (IPM)</div></div></div></article>
-        <article className="tmn-card"><p>Amazing 😍. It felt like the mentor <span className="pull">truly understood</span> the modern job market and offered tailored, useful insights through Beyond Career. Extremely helpful in shaping my path.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/dtu.jpeg" alt="Sagar" loading="lazy" /></span><div><div className="tmn-nm">Sagar</div><div className="tmn-rl">DTU, Delhi</div></div></div></article>
+        <article className="tmn-card"><p>Today's session brought <span className="pull">instant clarity</span> to concepts I'd been struggling with for days. The intuitive, practical style made even complex ideas feel simple. The roadmap shared gave me a step-by-step approach for my specific goals.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/mansi.jpeg" alt="Mansi Agarwal" loading="lazy" /></span><div><div className="tmn-nm">Mansi Agarwal</div><div className="tmn-rl">IIM Indore (IPM)</div></div></div></article>
+        <article className="tmn-card"><p>One of the <span className="pull">best advices and career guidance</span> — and now I know I will definitely get the job.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/testimonials/apoorva-jain.png" alt="Apoorva Jain" loading="lazy" /></span><div><div className="tmn-nm">Apoorva Jain</div><div className="tmn-rl">mentee · Unstop · 5.0 ★</div></div></div></article>
+        <article className="tmn-card"><p>Amazing 😍. It felt like the mentor <span className="pull">truly understood</span> the modern job market and offered tailored, useful insights. Extremely helpful in shaping my path.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/dtu.jpeg" alt="Sagar" loading="lazy" /></span><div><div className="tmn-nm">Sagar</div><div className="tmn-rl">DTU, Delhi</div></div></div></article>
+        <article className="tmn-card"><p>Very <span className="pull">helpful</span>.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/testimonials/tia-sharma.png" alt="Tia Sharma" loading="lazy" /></span><div><div className="tmn-nm">Tia Sharma</div><div className="tmn-rl">mentee · Unstop · 5.0 ★</div></div></div></article>
         <article className="tmn-card"><p>Beyond Career is an exceptional mentoring platform that provided precise and <span className="pull">effective solutions</span>, guiding me in the right direction. Their expertise and support have been invaluable.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/isha.png" alt="Isha Mehla" loading="lazy" /></span><div><div className="tmn-nm">Isha Mehla</div><div className="tmn-rl">Amity University Rajasthan</div></div></div></article>
       </div></div>
       <div className="tmn-row r2"><div className="tmn-track">
         <article className="tmn-card"><p>Beyond Career is an exceptional mentoring platform that provided precise and <span className="pull">effective solutions</span>, guiding me in the right direction. Their expertise and support have been invaluable.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/isha.png" alt="Isha Mehla" loading="lazy" /></span><div><div className="tmn-nm">Isha Mehla</div><div className="tmn-rl">Amity University Rajasthan</div></div></div></article>
-        <article className="tmn-card"><p>Today's session with Beyond Career brought <span className="pull">instant clarity</span> to concepts I'd been struggling with for days. Their intuitive, practical style made even complex ideas feel simple. The roadmap they shared gave me a step-by-step approach for my specific goals.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/mansi.jpeg" alt="Mansi Agarwal" loading="lazy" /></span><div><div className="tmn-nm">Mansi Agarwal</div><div className="tmn-rl">IIM Indore (IPM)</div></div></div></article>
-        <article className="tmn-card"><p>Amazing 😍. It felt like the mentor <span className="pull">truly understood</span> the modern job market and offered tailored, useful insights through Beyond Career. Extremely helpful in shaping my path.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/dtu.jpeg" alt="Sagar" loading="lazy" /></span><div><div className="tmn-nm">Sagar</div><div className="tmn-rl">DTU, Delhi</div></div></div></article>
+        <article className="tmn-card"><p>Very <span className="pull">helpful</span>.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/testimonials/tia-sharma.png" alt="Tia Sharma" loading="lazy" /></span><div><div className="tmn-nm">Tia Sharma</div><div className="tmn-rl">mentee · Unstop · 5.0 ★</div></div></div></article>
+        <article className="tmn-card"><p>Today's session brought <span className="pull">instant clarity</span> to concepts I'd been struggling with for days. The intuitive, practical style made even complex ideas feel simple. The roadmap shared gave me a step-by-step approach for my specific goals.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/mansi.jpeg" alt="Mansi Agarwal" loading="lazy" /></span><div><div className="tmn-nm">Mansi Agarwal</div><div className="tmn-rl">IIM Indore (IPM)</div></div></div></article>
+        <article className="tmn-card"><p>Your explanation is <span className="pull">very nice</span>, I will try for that. Thanks for guiding.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/testimonials/sneha-yadav.png" alt="Sneha Yadav" loading="lazy" /></span><div><div className="tmn-nm">Sneha Yadav</div><div className="tmn-rl">mentee · Unstop · 5.0 ★</div></div></div></article>
+        <article className="tmn-card"><p>Amazing 😍. It felt like the mentor <span className="pull">truly understood</span> the modern job market and offered tailored, useful insights. Extremely helpful in shaping my path.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/dtu.jpeg" alt="Sagar" loading="lazy" /></span><div><div className="tmn-nm">Sagar</div><div className="tmn-rl">DTU, Delhi</div></div></div></article>
+        <article className="tmn-card"><p><span className="pull">Highly recommended</span>.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/testimonials/subham-sahoo.png" alt="Subham Sahoo" loading="lazy" /></span><div><div className="tmn-nm">Subham Sahoo</div><div className="tmn-rl">mentee · Unstop · 5.0 ★</div></div></div></article>
       </div></div>
     </div>
+    <div className="tmn-src ai-rv">+ more on <a href="https://unstop.com/mentor/DineshKatal" target="_blank" rel="noopener">unstop ↗</a> · <a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">topmate ↗</a> — 5.0 average across platforms</div>
   </div>
 </section>
 
@@ -698,7 +798,7 @@ export default function Page() {
     {tag:'AGENTIC AI', metric:'multi-agent harness',  prob:'agents that can't cooperate',   ttl:'Fried Viper agent hostel.',            href:'https://github.com/Dinesh-codeswell/fried-viper'},
     {tag:'CREATIVE CODE', metric:'1080p renders', prob:'manual lyric-video editing',   ttl:'Lyrical video render suite.',     href:'https://github.com/Dinesh-codeswell/lyrical-video'},
     {tag:'MUSIC INTELLIGENCE', metric:'zero-auth scrapers',  prob:'artist data locked in platforms',    ttl:'Music profile scraper & EPK.',      href:'https://github.com/Dinesh-codeswell/music-profile-scraper'},
-    {tag:'ALGO TRADING', metric:'85% signal accuracy', prob:'manual forex charting', ttl:'Automated forex trading system.',    href:'https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current'}
+    {tag:'COMMUNITY', metric:'1,000+ daily users', prob:'scattered job openings', ttl:'Job Dashboard for the community.',    href:'https://github.com/Dinesh-codeswell/Job-Dashboard'}
   ];
   var W=innerWidth,H=innerHeight,N=mob?3:4,bees=[],ORIG=[[43,57],[43,56],[34,47]];
   /* phones: keep bees down near the meadow (anchored to the bottom) so they never drift across the hero copy, whatever the viewport height */
@@ -1161,6 +1261,7 @@ export default function Page() {
  }
 })();` }} />
 <Script id="script-home-20" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){var el=document.getElementById('gfClock');if(!el)return;function t(){try{el.textContent=new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'Asia/Kolkata'});}catch(e){el.textContent=new Date().toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});}}t();setInterval(t,15000);})();` }} />
+<Script id="script-home-20b" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){document.querySelectorAll('.gf-copy').forEach(function(btn){btn.addEventListener('click',function(){var addr=btn.getAttribute('data-copy-email')||'';var done=function(){btn.classList.add('did');setTimeout(function(){btn.classList.remove('did');},1600);};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(addr).then(done,function(){window.location.href='mailto:'+addr;});}else{var t=document.createElement('textarea');t.value=addr;document.body.appendChild(t);t.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(t);}});});})();` }} />
 <Script id="script-home-21" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){
   var gal=document.getElementById('cgal'); if(!gal) return;
   var items=[].slice.call(gal.querySelectorAll('.cgal-item')); if(!items.length) return;
@@ -1421,8 +1522,8 @@ export default function Page() {
         <p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p>
       </div>
       <nav className="gf-cols" aria-label="footer">
-        <div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div>
-        <div className="gf-col"><span className="gf-h">connect</span><a className="cal-pop calfun" href="https://calendly.com/dineshkatal-work/book-1-1-session" target="_blank" rel="noopener">schedule a call ↗</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div>
+        <div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="/now">now</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div>
+        <div className="gf-col"><span className="gf-h">connect</span><a className="cal-pop calfun" href="https://calendly.com/dineshkatal-work/book-1-1-session" target="_blank" rel="noopener">schedule a call ↗</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="https://github.com/Dinesh-codeswell" target="_blank" rel="noopener">github ↗</a><a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">topmate ↗</a><a href="https://medium.com/@dineshkatal" target="_blank" rel="noopener">medium ↗</a><button type="button" className="gf-copy" data-copy-email="dineshkatal.work@gmail.com" title="Click to copy email">email <span className="gf-copied" aria-hidden="true">copied ✓</span></button></div>
         <div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div>
       </nav>
     </div>
@@ -2219,6 +2320,7 @@ export default function Page() {
     box-shadow:0 14px 40px rgba(8,24,52,.18);transition:transform .7s cubic-bezier(.22,1,.36,1),box-shadow .7s cubic-bezier(.22,1,.36,1);}
   .sw-card:hover{transform:translateY(-6px);box-shadow:0 30px 60px -28px rgba(8,22,48,.5);}
   .sw-media{overflow:hidden;background:rgba(255,255,255,.08);aspect-ratio:16/10;position:relative;border-radius:13px;}
+  .sw-rec{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
   .sw-media img,.sw-media video{width:100%;height:100%;object-fit:cover;object-position:top center;transition:transform 1.1s cubic-bezier(.22,1,.36,1);}
   .sw-card:hover .sw-media img,.sw-card:hover .sw-media video{transform:scale(1.04);}
   /* flagship mobile card — phone peeking from the bottom (portrait device on a tinted panel) */
@@ -2347,6 +2449,12 @@ export default function Page() {
   @media(prefers-reduced-motion:reduce){.pd-bars i,.pd-dot,.pd-cursor{animation:none!important;}}` }} />
 <style dangerouslySetInnerHTML={{ __html: `.ai-skills{position:relative;z-index:8;padding:var(--sp-section) 0;}
   .ai-skills .ai-wrap{max-width:1180px;}
+  .toolbelt{margin-top:clamp(36px,6vh,64px);padding-top:clamp(20px,3vh,30px);border-top:1px solid rgba(255,255,255,.35);display:flex;gap:18px;align-items:baseline;flex-wrap:wrap;}
+  .toolbelt-k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.72);flex:0 0 auto;}
+  .toolbelt-chips{display:flex;flex-wrap:wrap;gap:7px;}
+  .toolbelt-chips span{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.04em;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:4px 11px;border-radius:999px;white-space:nowrap;transition:background .25s ease,transform .25s ease;}
+  .toolbelt-chips span:hover{background:rgba(255,255,255,.26);transform:translateY(-2px);}
+  body.nightsky .toolbelt{border-top-color:rgba(255,255,255,.22);}
   .skills-grid{display:grid;grid-template-columns:minmax(170px,290px) 1fr;gap:clamp(28px,5vw,88px);align-items:start;}
   .skills-aside{position:sticky;top:clamp(96px,20vh,180px);}
   .skills-kick{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.82);}
@@ -2516,6 +2624,219 @@ export default function Page() {
       gap: 44px;
     }
   }
+
+  /* ─── work experience — glass timeline (matches credentials) ─── */
+  .wx-sec {
+    position: relative;
+    z-index: 8;
+    padding: var(--sp-section) 0;
+  }
+  .wx-sec .ai-wrap {
+    max-width: 1020px;
+  }
+  .wx-head {
+    margin-bottom: clamp(26px, 4vh, 44px);
+  }
+  .wx-head .ai-big { margin-top: 12px; }
+  .wx-head .ai-big em { font-style: italic; color: var(--accent); }
+  .wx-sub {
+    font-size: 15px;
+    color: var(--soft);
+    max-width: 460px;
+    margin-top: 8px;
+  }
+  .wx-rail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-left: 30px;
+  }
+  .wx-rail::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 18px;
+    bottom: 18px;
+    width: 1.5px;
+    background: linear-gradient(180deg, rgba(22,32,43,.3), rgba(22,32,43,.06));
+    border-radius: 2px;
+  }
+  .wx-node {
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 0 3px rgba(255,255,255,.55);
+  }
+  .wx-card {
+    position: relative;
+    display: flex;
+    gap: clamp(18px, 3vw, 30px);
+    background: linear-gradient(165deg, rgba(255,255,255,.72), rgba(255,255,255,.44));
+    -webkit-backdrop-filter: blur(14px) saturate(1.3);
+    backdrop-filter: blur(14px) saturate(1.3);
+    border: 1px solid rgba(255,255,255,.75);
+    border-radius: 18px;
+    padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 30px);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 20px 42px -28px rgba(20,42,84,.3);
+    transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s ease, border-color .35s ease;
+  }
+  .wx-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255,255,255,.95);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 30px 54px -26px rgba(20,42,84,.4);
+  }
+  .wx-card.is-now {
+    border-color: rgba(47,108,184,.5);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.85), inset 3px 0 0 rgba(47,108,184,.85), 0 20px 42px -28px rgba(20,42,84,.32);
+  }
+  .wx-side {
+    flex: 0 0 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .wx-logo {
+    width: 62px;
+    height: 62px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid rgba(255,255,255,.9);
+    box-shadow: 0 8px 18px -10px rgba(20,42,84,.35), inset 0 1px 0 rgba(255,255,255,.9);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  .wx-logo img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .wx-when {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted, var(--soft));
+    line-height: 1.5;
+  }
+  .wx-now {
+    font-family: var(--font-mono);
+    font-size: 8.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(180deg,#4f92d6,#2f6cb8);
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .wx-main { flex: 1; min-width: 0; }
+  .wx-role {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 2.2vw, 23px);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.01em;
+    color: var(--ink);
+  }
+  .wx-role em { font-style: italic; color: var(--accent); }
+  .wx-org {
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-top: 3px;
+  }
+  .wx-mission {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: .04em;
+    color: var(--muted, var(--soft));
+    margin-top: 6px;
+  }
+  .wx-points {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .wx-points li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--soft);
+  }
+  .wx-points li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: .58em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: linear-gradient(180deg,#7db4e4,#2f6cb8);
+  }
+  .wx-points b { color: var(--ink); font-weight: 600; }
+  .wx-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 14px;
+  }
+  .wx-tags span {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: .05em;
+    text-transform: lowercase;
+    color: var(--ink);
+    background: rgba(255,255,255,.66);
+    border: 1px solid rgba(22,32,43,.14);
+    padding: 3.5px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .wx-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .wx-links a {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .06em;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(47,108,184,.35);
+    padding-bottom: 2px;
+    transition: border-color .25s ease, color .25s ease;
+  }
+  .wx-links a:hover { color: #1c4f92; border-color: #1c4f92; }
+  @media(max-width: 720px) {
+    .wx-card { flex-direction: column; }
+    .wx-side {
+      flex-direction: row;
+      flex: 0 0 auto;
+      width: 100%;
+      text-align: left;
+      align-items: center;
+    }
+    .wx-logo { width: 46px; height: 46px; border-radius: 12px; }
+    .wx-node { top: 24px; }
+  }
   ` }} />
 <style dangerouslySetInnerHTML={{ __html: `.ai-stage{position:relative;z-index:8;padding:var(--sp-section) 0;}
   .ai-stage .ai-wrap{max-width:1180px;}
@@ -2599,6 +2920,9 @@ export default function Page() {
     -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
     mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);}
   .tmn-row{overflow:hidden;}
+  .tmn-src{margin-top:22px;text-align:center;font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;color:var(--soft);}
+  .tmn-src a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(47,108,184,.35);padding-bottom:1px;}
+  .tmn-src a:hover{border-color:var(--accent);}
   .tmn-track{display:flex;gap:20px;width:max-content;will-change:transform;}
   .tmn-row.r1 .tmn-track{animation:tmnMqL 64s linear infinite;}
   .tmn-row.r2 .tmn-track{animation:tmnMqR 76s linear infinite;}
