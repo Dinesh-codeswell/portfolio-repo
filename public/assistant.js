@@ -19,18 +19,18 @@
   ];
   var GENERAL_FOLLOW = ["What's his product process?", "Whise has he worked?", "How do I reach him?"];
   var CASES = [
-    { href: '/case-fxonline', title: 'automated trading & SMA averages', meta: '85% signal accuracy · Trading Analytics',
-      re: /\bfx\b|foreign[- ]?exchange|exchange currency|trading|sma|yfinance|price point/i,
-      follow: ['How did you achieve 85% signal accuracy?', 'What was the yfinance pipeline?'] },
-    { href: '/case-business', title: 'Beyond Career platform & ATS engine', meta: 'scaling to 20k+ users · 99.9% uptime',
-      re: /beyond career|ats engine|ats resume|scoring engine|matchmaking/i,
-      follow: ['How does the resume ATS engine work?', 'What was the matchmaking algorithm?'] },
-    { href: '/case-mashreq', title: 'HubSpot CRM growth campaigns', meta: '150% lead boost · Edupolis EdTech',
-      re: /hubspot|crm|edupolis|marketing campaign|lead boost/i,
-      follow: ['How did you achieve 150% lead boost?', 'What was the CAC reduction strategy?'] },
-    { href: '/case-podonos', title: 'Songdew Media EPK module revamp', meta: '65% profile completion · Product Intern',
-      re: /songdew|epk|onboarding|user engagement|fraud-detection/i,
-      follow: ['How did you revamp the EPK module?', 'What was the AI onboarding flow?'] }
+    { href: 'https://github.com/Dinesh-codeswell/fried-viper', title: 'Fried Viper — multi-agent harness', meta: 'agentic AI · Electron · TypeScript',
+      re: /fried viper|agent hostel|multi-agent|agentic/i,
+      follow: ['What agents does Fried Viper coordinate?', 'How does the mailbox work?'] },
+    { href: 'https://github.com/Dinesh-codeswell/lyrical-video', title: 'Lyrical video render suite', meta: '1080p renders · FastAPI · FFmpeg',
+      re: /lyric|lyrical|karaoke|music video|ffmpeg/i,
+      follow: ['What workflows does it support?', 'How does AI transcription work?'] },
+    { href: 'https://github.com/Dinesh-codeswell/music-profile-scraper', title: 'Music profile scraper & EPK', meta: 'zero-auth · FastAPI · MCP server',
+      re: /music|spotify|apple music|epk|artist|mcp/i,
+      follow: ['How does zero-auth scraping work?', 'What is the MCP server for?'] },
+    { href: 'https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current', title: 'Automated forex trading system', meta: '85% signal accuracy · Python · SMA',
+      re: /forex|trading|sma|yfinance|price point/i,
+      follow: ['How did you achieve 85% signal accuracy?', 'What was the yfinance pipeline?'] }
   ];
 
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

@@ -43,7 +43,7 @@ export default function Page() {
 
   return (
     <>
-      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
+      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
   <div className="bgfx" aria-hidden="true"></div>
 
   {/* liquid displacement filters for the bento blocks (edges wave, content stays crisp) */}
@@ -69,7 +69,7 @@ export default function Page() {
 
   <nav className="wnav" style={{ display: "none" }}>
     <a className="brand" href="/">dinesh<span className="a">.</span></a>
-    <nav className="snav"><a href="/work">work</a><a href="/beyond" className="on">lil&nbsp;about&nbsp;me</a><a className="ext" href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti exti-up">↗</span></a><a className="ext" href="../assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti exti-dn">↓</span></a><a className="ext" href="https://medium.com/@dinesh_linjara" target="_blank" rel="noopener">medium <span className="exti exti-up">↗</span></a><a href="/quick">quick&nbsp;view</a></nav>
+    <nav className="snav"><a href="/work">work</a><a href="/beyond" className="on">lil&nbsp;about&nbsp;me</a><a className="ext" href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti exti-up">↗</span></a><a className="ext" href="../assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti exti-dn">↓</span></a><a className="ext" href="https://medium.com/@dineshkatal" target="_blank" rel="noopener">medium <span className="exti exti-up">↗</span></a><a href="/quick">quick&nbsp;view</a></nav>
   </nav>
 
   <main className="stage">
@@ -86,14 +86,14 @@ export default function Page() {
         <span className="who">dinesh <span className="dot-on"></span> online</span>
       </div>
       <div className="chat" id="chat">
-        <div className="row"><div className="msg">Hey! I'm <b>Dinesh</b>· product designer &amp; researcher in Gurugram. ☕ ☕</div></div>
-        <div className="row"><div className="msg photo"><img src="../assets/dinesh_profile.png" alt="Dinesh making fresh pasta" loading="lazy" /></div></div>
-        <div className="row"><div className="msg">Finding insights in <b>complex datasets</b>.</div></div>
-        <div className="row"><div className="msg">Best thinking happens while <b>building automation scripts</b>.</div></div>
-        <div className="row"><div className="msg"><b>Jabalpur → Kharagpur → Gurugram</b>. Three homes.</div></div>
-        <div className="row"><div className="msg">Happiest when <b>shipping code & launching products</b>.</div></div>
-        <div className="row"><div className="msg">Off the clock: <b>movie directing</b> &amp; mentoring on Unstop.</div></div>
-        <div className="row"><div className="msg">Let's build &amp; scale something <b>meaningful</b>. 🚀</div></div>
+        <div className="row"><div className="msg">Hi, I'm <b>Dinesh</b> · product manager &amp; data analyst, based in Gurugram.</div></div>
+        <div className="row"><div className="msg photo"><img src="../assets/dinesh_profile.png" alt="Dinesh Kumar Katal" loading="lazy" /></div></div>
+        <div className="row"><div className="msg">I turn <b>messy datasets</b> into product decisions — SQL, Python, and a healthy bias for shipping.</div></div>
+        <div className="row"><div className="msg">Currently building at <b>Beyond Career</b>: a platform serving <b>20,000+ students</b> with 99.9% uptime.</div></div>
+        <div className="row"><div className="msg"><b>Jabalpur → IIT Kharagpur → Gurugram</b>. Engineering degree, product career.</div></div>
+        <div className="row"><div className="msg">Off the clock I <b>ship open-source projects</b> — from AI agents to render pipelines.</div></div>
+        <div className="row"><div className="msg">Also a <b>Top 0.1% mentor on Topmate</b> — resume reviews and PM career chats.</div></div>
+        <div className="row"><div className="msg">Open to <b>product &amp; analytics roles</b>. Let's build something that <b>scales</b>.</div></div>
         <div className="row typing-row"><div className="typing" id="typing" aria-hidden="true"><span></span><span></span><span></span></div></div>
       </div>
     </section>
@@ -115,7 +115,7 @@ export default function Page() {
         </ul>
         <div className="clients">
           <span className="kick">worked with <span className="s">/</span></span>
-          <div className="client-line"><a href="https://podonos.com" target="_blank" rel="noopener">Beyond Career</a> <span className="dot">.</span> <a href="https://github.com/Dinesh-codeswell" target="_blank" rel="noopener">Songdew Media</a> <span className="dot">.</span> <a href="https://unstop.com/mentor/DineshKatal" target="_blank" rel="noopener">Edupolis</a> <span className="dot">.</span> <a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">Gravitas Masters</a></div>
+          <div className="client-line"><a href="https://www.beyondcareer.online/" target="_blank" rel="noopener">Beyond Career</a> <span className="dot">.</span> <a href="https://unstop.com/mentor/DineshKatal" target="_blank" rel="noopener">Unstop</a> <span className="dot">.</span> <a href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">Topmate</a> <span className="dot">.</span> <a href="https://www.edupolisedtech.com/" target="_blank" rel="noopener">Edupolis</a></div>
         </div>
       </div>
 
@@ -130,7 +130,7 @@ export default function Page() {
         <a className="lk lk-arrow" href="mailto:dineshkatal.work@gmail.com" aria-label="Email Dinesh"><span>→</span></a>
         <a className="lk lk-soc s1" href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener"><span className="ico">in</span><span className="nm">linkedin</span></a>
         <a className="lk lk-soc s2" href="../assets/files/Dinesh_Resume.pdf" download=""><span className="ico">↓</span><span className="nm">résumé</span></a>
-        <a className="lk lk-soc s3" href="https://medium.com/@dinesh_linjara" target="_blank" rel="noopener"><span className="ico">M</span><span className="nm">medium</span></a>
+        <a className="lk lk-soc s3" href="https://medium.com/@dineshkatal" target="_blank" rel="noopener"><span className="ico">M</span><span className="nm">medium</span></a>
       </div>
     </section>
   </main>
@@ -142,10 +142,10 @@ export default function Page() {
     <section className="card c-a" id="leadership" aria-label="Athletics and creative leadership">
       <div className="card-in">
         <span className="more-k reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>· beyond the desk</span>
-        <h2 className="more-h"><span className="ln"><span className="ln-i" style={{ transition: "none", transform: "translateY(118%)" }}>led on track &amp; <span className="a">screen.</span></span></span></h2>
+        <h2 className="more-h"><span className="ln"><span className="ln-i" style={{ transition: "none", transform: "translateY(118%)" }}>led teams &amp; <span className="a">built community.</span></span></span></h2>
         <figure className="card-photo reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>
-          <img src="../assets/conferences/conf-1.avif" alt="Dinesh Kumar Katal - Team Captain and Short Film Director" />
-          <figcaption>athletics captaincy &amp; creative filmmaking · Nehru Hall of Residence</figcaption>
+          <img src="../assets/conferences/conf-1.avif" alt="Dinesh Kumar Katal — Athletics Captain, Nehru Hall, IIT Kharagpur" />
+          <figcaption>athletics captaincy (inter-hall bronze) &amp; student mentorship · IIT Kharagpur</figcaption>
         </figure>
       </div>
     </section>
@@ -217,7 +217,7 @@ export default function Page() {
     <section className="card c-d" aria-label="Get in touch">
       <div className="card-in">
         <span className="more-k reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>· say hi</span>
-        <h2 className="more-h"><span className="ln"><span className="ln-i" style={{ transition: "none", transform: "translateY(118%)" }}>let's make something complex feel <span className="a">simple.</span></span></span></h2>
+        <h2 className="more-h"><span className="ln"><span className="ln-i" style={{ transition: "none", transform: "translateY(118%)" }}>let's turn complex data into <span className="a">clear decisions.</span></span></span></h2>
         <div className="card-links reveal" style={{ transition: "none", opacity: "0", transform: "translateY(24px)" }}>
           <a className="ink-btn primary" href="mailto:dineshkatal.work@gmail.com" data-cine-mag="1"><span className="lbl">email me <span className="arw">→</span></span></a>
           <a className="ink-btn" href="../assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener" data-cine-mag="1"><span className="lbl">↓ résumé</span></a>

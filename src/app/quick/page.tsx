@@ -49,7 +49,7 @@ export default function Page() {
 
   return (
     <>
-      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
+      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
   <div className="bgfx" aria-hidden="true"></div>
   <canvas id="fx" aria-hidden="true" width="1440" height="900"></canvas>
   <div className="grain" aria-hidden="true"></div>
@@ -113,29 +113,30 @@ export default function Page() {
   <section className="worksec wrap">
     <span className="eyebrow sec-kick">selected work</span>
     <div className="work-stack">
-      <a className="wcard cn-tilt" style={{ "--i": "0", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="/case-fxonline" data-cine-tilt="1">
-        <div className="wm"><span className="wnum">16,265</span><span className="wunit">deals booked · 262M AED</span></div>
-        <div className="wbody"><img className="co-logo" src="../assets/logos/emirates-nbd.png" alt="Emirates NBD" /><span className="wtag">Emirates NBD · fintech · 2024</span><h3>exchange currency without the fear.</h3><p>Rate negotiation and booking collapsed into one 90-second flow.</p></div>
+      <a className="wcard cn-tilt" style={{ "--i": "0", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://github.com/Dinesh-codeswell/fried-viper" target="_blank" rel="noopener" data-cine-tilt="1">
+        <div className="wm"><span className="wnum">9+</span><span className="wunit">agent clis coordinated</span></div>
+        <div className="wbody"><span className="wtag">fried viper · agentic ai · 2026</span><h3>a hacker hostel of self-coordinating agents.</h3><p>Terminal-agent CLIs turned into an engineering team with memory and a mailbox.</p></div>
         <span className="wgo">↗</span>
       </a>
-      <a className="wcard cn-tilt" style={{ "--i": "1", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="/case-business" data-cine-tilt="1">
-        <div className="wm"><span className="wnum">40%</span><span className="wunit">faster approvals</span></div>
-        <div className="wbody"><img className="co-logo" src="../assets/logos/emirates-nbd.png" alt="Emirates NBD" /><span className="wtag">Emirates NBD · mobile</span><h3>corporate banking, in your pocket.</h3><p>Mobile approvals for corporate banking teams on the move.</p></div>
+      <a className="wcard cn-tilt" style={{ "--i": "1", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://github.com/Dinesh-codeswell/lyrical-video" target="_blank" rel="noopener" data-cine-tilt="1">
+        <div className="wm"><span className="wnum">1080p</span><span className="wunit">h.264 renders</span></div>
+        <div className="wbody"><span className="wtag">lyrical video · creative code · 2026</span><h3>cinematic lyric videos from raw audio.</h3><p>Web studio, desktop GUI and headless CLI — with AI lyric transcription.</p></div>
         <span className="wgo">↗</span>
       </a>
-      <a className="wcard cn-tilt" style={{ "--i": "2", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="/case-mashreq" data-cine-tilt="1">
-        <div className="wm"><span className="wnum">35%</span><span className="wunit">fewer support calls</span></div>
-        <div className="wbody"><img className="co-logo" src="../assets/logos/mashreq.png" alt="Mashreq" /><span className="wtag">Mashreq · web + mobile</span><h3>great help, one click away.</h3><p>Support moved from buried pages to one-tap access.</p></div>
+      <a className="wcard cn-tilt" style={{ "--i": "2", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://github.com/Dinesh-codeswell/music-profile-scraper" target="_blank" rel="noopener" data-cine-tilt="1">
+        <div className="wm"><span className="wnum">0</span><span className="wunit">api keys required</span></div>
+        <div className="wbody"><span className="wtag">music profile scraper · live · 2026</span><h3>artist intelligence, zero auth.</h3><p>Spotify/Apple ingestion, EPK generation and an MCP server for music intelligence.</p></div>
         <span className="wgo">↗</span>
       </a>
-      <a className="wcard cn-tilt" id="lockCard" style={{ "--i": "3", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="/case-podonos" data-cine-tilt="1">
-        <div className="wm"><span className="wnum">0→1</span><span className="wunit">founding designer · ai</span></div>
-        <div className="wbody"><img className="co-logo" src="../assets/logos/podonos.svg" alt="Podonos" /><span className="wtag">Podonos · AI</span><h3>the intelligent layer for global voice.</h3><p>Localized audio production cut from days to hours.</p></div>
+      <a className="wcard cn-tilt" style={{ "--i": "3", translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" } as React.CSSProperties} href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener" data-cine-tilt="1">
+        <div className="wm"><span className="wnum">85%</span><span className="wunit">signal accuracy</span></div>
+        <div className="wbody"><span className="wtag">forex trading system · python · 2023</span><h3>automated trading pipeline.</h3><p>10,000+ price points daily with SMA crossover signals and backtesting.</p></div>
         <span className="wgo">↗</span>
       </a>
     </div>
   </section>
 
+  {/* writing section — commented out (old Medium posts; medium handle updated to @dineshkatal for future use)
   <section className="writingsec wrap">
     <span className="eyebrow sec-kick">writing</span>
     <div className="wr-head">
@@ -143,7 +144,7 @@ export default function Page() {
         <h2>He <em>writes</em>, too.</h2>
         <p className="wr-sub">Essays and notes on design process, research, and how designers learn.</p>
       </div>
-      <a className="wr-all" href="https://medium.com/@dinesh_linjara" target="_blank" rel="noopener">read on medium <span>↗</span></a>
+      <a className="wr-all" href="https://medium.com/@dineshkatal" target="_blank" rel="noopener">read on medium <span>↗</span></a>
     </div>
     <div className="wr-list">
       <a className="wr-post" href="https://medium.com/design-bootcamp/designing-across-borders-9b0a590459e7" target="_blank" rel="noopener">
@@ -151,18 +152,19 @@ export default function Page() {
         <span className="wr-body"><span className="wr-title">Designing across borders</span><span className="wr-date">reflection · Jul 28, 2025</span></span>
         <span className="wr-arrow"><span>↗</span></span>
       </a>
-      <a className="wr-post" href="https://medium.com/@dinesh_linjara/design-is-not-just-a-job-its-a-conversation-042dfa6d67f5" target="_blank" rel="noopener">
+      <a className="wr-post" href="https://medium.com/@dineshkatal/design-is-not-just-a-job-its-a-conversation-042dfa6d67f5" target="_blank" rel="noopener">
         <span className="wr-n">02</span>
         <span className="wr-body"><span className="wr-title">Design Is Not Just a Job, it’s a Conversation.</span><span className="wr-date">essay · Jul 26, 2025</span></span>
         <span className="wr-arrow"><span>↗</span></span>
       </a>
-      <a className="wr-post" href="https://medium.com/@dinesh_linjara/unlocking-innovation-a-glimpse-into-the-new-innovation-hub-at-mashreq-headquarters-d43da9fcf6af" target="_blank" rel="noopener">
+      <a className="wr-post" href="https://medium.com/@dineshkatal/unlocking-innovation-a-glimpse-into-the-new-innovation-hub-at-mashreq-headquarters-d43da9fcf6af" target="_blank" rel="noopener">
         <span className="wr-n">03</span>
         <span className="wr-body"><span className="wr-title">Unlocking Innovation: A Glimpse into the New Innovation Hub at Mashreq Headquarters</span><span className="wr-date">field note · Sep 26, 2023</span></span>
         <span className="wr-arrow"><span>↗</span></span>
       </a>
     </div>
   </section>
+  */}
 
   <section className="closesec wrap">
     <div className="close rv">
@@ -177,7 +179,6 @@ export default function Page() {
     </div>
   </section>
 
-  <span className="lockfloat" id="lockFloat" aria-hidden="true" style={{ transform: "translate3d(720px, 450px, 0px) translate(-50%, -50%) scale(0) rotate(0deg)" }}>🔒</span>
 
   <Script src="/transition.js"  strategy="afterInteractive" />
   
@@ -312,26 +313,6 @@ export default function Page() {
       gl.drawArrays(gl.TRIANGLES,0,3); requestAnimationFrame(frame);
     })(t0);
   })();` }} />
-  <Script id="script-quick-6" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `/* floating lock on the gated onepin card — pops on hover, chases the cursor, mirrors the about-page mail letter */
-  (function(){
-    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
-    var card=document.getElementById('lockCard'), lock=document.getElementById('lockFloat');
-    if(!card||!lock||reduce||!fine){ if(lock) lock.style.display='none'; return; }
-    var px=innerWidth*0.5, py=innerHeight*0.5, tx=px, ty=py,
-        sc=0, scT=0, scV=0, rot=0, rotT=0;
-    card.addEventListener('pointerenter',function(){ scT=1; rotT=-6; });
-    card.addEventListener('pointermove',function(e){ tx=e.clientX; ty=e.clientY; });
-    card.addEventListener('pointerleave',function(){ scT=0; rotT=0; });
-    (function loop(){
-      px+=(tx-px)*0.2; py+=(ty-py)*0.2;
-      rot+=(rotT-rot)*0.18;
-      scV+=(scT-sc)*0.16; scV*=0.72; sc+=scV;          // elastic spring (overshoot)
-      if(sc<0.0015 && scT===0){ sc=0; scV=0; }
-      lock.style.transform='translate3d('+px+'px,'+py+'px,0) translate(-50%,-50%) scale('+Math.max(sc,0).toFixed(3)+') rotate('+rot.toFixed(1)+'deg)';
-      requestAnimationFrame(loop);
-    })();
-  })();` }} />
   <Script src="/buttons.js"  strategy="afterInteractive" />
   <Script src="/nav.js?v=6"  strategy="afterInteractive" />
   {/* cinematic layer: magnetic CTAs + cursor tilt/sheen */}
@@ -341,7 +322,7 @@ export default function Page() {
   <Script src="/smooth-scroll.js"  strategy="afterInteractive" />
 
 
-<footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time <b id="gfClock">2:31 AM</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer>
+<footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer>
 <style dangerouslySetInnerHTML={{ __html: `:root{
     --paper:var(--t-paper); --card:#ffffff; --ink:var(--t-ink); --soft:var(--t-ink-soft); --muted:var(--t-ink-faint);
     --accent:#2f6cb8; --pop:#0083E7; --sage:#5fd29a; --gold:var(--t-gold); --line:rgba(20,32,52,.12);

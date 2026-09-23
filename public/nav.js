@@ -25,7 +25,7 @@
       '<a href="/work">work</a>' +
       '<a href="/beyond">about</a>' +
       '<a href="/lab">art lab</a>' +
-      '<a href="/blog">blogs</a>' +
+      '' +
       '<a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span class="exti">↗</span></a>' +
       '<a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span class="exti">↓</span></a>' +
       '<a class="cta" href="/quick">quick view <span class="arw">&rarr;</span></a>' +

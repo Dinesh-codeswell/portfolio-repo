@@ -37,12 +37,12 @@
             '<div class="gf-col"><span class="gf-h">connect</span>' +
               '<a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin \u2197</a>' +
               '<a href="mailto:dineshkatal.work@gmail.com">email \u2197</a>' +
-              '<a href="https://dinesh.design" target="_blank" rel="noopener">dinesh.design \u2197</a>' +
+              '<a href="https://github.com/Dinesh-codeswell" target="_blank" rel="noopener">github \u2197</a>' +
             '</div>' +
             '<div class="gf-col"><span class="gf-h">status</span>' +
               '<span class="gf-avail"><i></i> open to new work</span>' +
               '<span class="gf-line">based in Gurugram, India</span>' +
-              '<span class="gf-line">local time <b id="gfClock">\u2014</b></span>' +
+              '<span class="gf-line">local time · IST <b id="gfClock">\u2014</b></span>' +
             '</div>' +
           '</nav>' +
         '</div>' +

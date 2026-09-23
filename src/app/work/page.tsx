@@ -45,7 +45,7 @@ export default function Page() {
 
   return (
     <>
-      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
+      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
   {/* shared page transition (ink wipe) — see transition.css/js */}
   <div className="pgx" id="pgx" aria-hidden="true">
     <div className="pgx-ink"></div>
@@ -68,99 +68,108 @@ export default function Page() {
     <span className="kick">the work</span>
     <h1 data-cine-split="1" data-split="1">
       <span className="cn-m"><span className="cn-w">selected</span></span>{" "}
-      <span className="cn-m"><span className="cn-w">product</span></span>{" "}
-      <span className="cn-m"><span className="cn-w">&amp; growth</span></span>{" "}
-      <span className="cn-m"><span className="cn-w"><span className="a">case studies</span></span></span>
+      <span className="cn-m"><span className="cn-w">products</span></span>{" "}
+      <span className="cn-m"><span className="cn-w">&amp; </span></span>{" "}
+      <span className="cn-m"><span className="cn-w"><span className="a">experiments</span></span></span>
       <span className="cn-m"><span className="cn-w">.</span></span>
     </h1>
-    <p>Building platforms and algorithms that scale: from AI onboarding serving 20k+ users to NLP engines and financial trading analytics. Six selected projects.</p>
+    <p>Building platforms and algorithms that scale: from a multi-agent terminal harness to ML trading pipelines and music intelligence. Five selected projects — all open source.</p>
   </header>
 
   <main className="wrap">
 
-    {/* 01 Beyond Career */}
-    <div className="case in" data-href="/case-podonos">
+    {/* 01 Fried Viper */}
+    <a className="case in" href="https://github.com/Dinesh-codeswell/fried-viper" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">01</div>
-        <div className="meta"><img className="co-logo" src="../assets/logos/podonos.svg" alt="Beyond Career" /><span className="dot">·</span><span>2025–Present · Gurugram</span><span className="dot">·</span><span>Product &amp; AI</span></div>
-        <div className="ttl">the intelligent layer <span className="a">for edtech matchmaking.</span></div>
-        <p className="lede">Architected end-to-end product platform scaling to 20,000+ users with 99.9% uptime. Built ML matchmaking algorithms facilitating 400+ team formations.</p>
-        <div className="tags"><span className="tag">0→1</span><span className="tag">Product Strategy</span><span className="tag">AI &amp; Matchmaking</span></div>
-        <div className="row-foot">
-        </div>
+        <div className="meta"><span className="co">fried viper</span><span className="dot">·</span><span>2026 · open source</span><span className="dot">·</span><span>agentic ai</span></div>
+        <div className="ttl">a hacker hostel of <span className="a">self-coordinating agents.</span></div>
+        <p className="lede">Electron harness that turns terminal-agent CLIs — claude, codex, grok, kimi, qwen — into a self-coordinating engineering team: long-term memory, an atomic mailbox, and a desk on a 2D floor.</p>
+        <div className="tags"><span className="tag">Electron</span><span className="tag">React</span><span className="tag">TypeScript</span><span className="tag">Pixi.js</span></div>
       </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover nda"><video className="cover-vid" autoPlay muted loop playsInline preload="metadata" poster="/assets/case/podonos/onepin-flow-poster.jpg"><source src="/assets/case/podonos/onepin-flow.mp4" type="video/mp4" /></video><div className="nda-hover" aria-label="under NDA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.2"></rect><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"></path><circle cx="12" cy="15.2" r="1.25" fill="currentColor" stroke="none"></circle></svg><span>open platform</span></div></div></div>
-    </div>
+      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
+        <div className="mini-term" aria-hidden="true">
+          <div className="mini-bar"><i></i><i></i><i></i><span>fried-viper — floor</span></div>
+          <div className="mini-row"><span className="mini-dot g"></span>claude<span className="mini-msg">refactored middle-out core ✓</span></div>
+          <div className="mini-row"><span className="mini-dot y"></span>codex<span className="mini-msg">inbox: 3 tasks claimed</span></div>
+          <div className="mini-row"><span className="mini-dot b"></span>grok<span className="mini-msg">shipping v0.4 to the floor…</span></div>
+        </div>
+      </div></div>
+    </a>
 
-    {/* 02 HubSpot CRM Campaign */}
-    <div className="case in" data-href="/case-mashreq">
+    {/* 02 Lyrical Video */}
+    <a className="case" href="https://github.com/Dinesh-codeswell/lyrical-video" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">02</div>
-        <div className="meta"><img className="co-logo" src="../assets/logos/mashreq.png" alt="Edupolis / Unschool" /><span className="dot">·</span><span>2024 · Gurugram</span><span className="dot">·</span><span>Growth Analytics</span></div>
-        <div className="ttl">optimizing edtech campaigns <span className="a">via growth funnel checks.</span></div>
-        <p className="lede">Amplified brand reach by 120% using HubSpot CRM, reducing Customer Acquisition Cost (CAC) by 15% and boosting course conversions by 25% via analytics.</p>
-        <div className="tags"><span className="tag">HubSpot CRM</span><span className="tag">Growth Analytics</span><span className="tag">Business Analysis</span></div>
-        <div className="row-foot">
-        </div>
+        <div className="meta"><span className="co">lyrical video</span><span className="dot">·</span><span>2026 · open source</span><span className="dot">·</span><span>creative code</span></div>
+        <div className="ttl">cinematic lyric videos, <span className="a">rendered from raw audio.</span></div>
+        <p className="lede">Full creation suite in three workflows — web studio, PyQt6 desktop GUI, and headless CLI. 1080p H.264 renders with word-by-word highlighting and AI lyric transcription.</p>
+        <div className="tags"><span className="tag">Python</span><span className="tag">FastAPI</span><span className="tag">FFmpeg</span><span className="tag">React 19</span></div>
       </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot"><img src="../assets/case/mashreq/mq-search.png" alt="Edupolis campaigns" loading="lazy" /></div></div>
-    </div>
+      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
+        <div className="mini-lyric" aria-hidden="true">
+          <div className="mini-eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div className="mini-ln on">~ cause baby you're a firework ~</div>
+          <div className="mini-ln">come on show 'em what you're worth</div>
+          <span className="mini-1080">1080p · h.264</span>
+        </div>
+      </div></div>
+    </a>
 
-    {/* 03 Automated Trading Analytics */}
-    <div className="case" data-href="/case-fxonline">
+    {/* 03 Music Profile Scraper */}
+    <a className="case" href="https://github.com/Dinesh-codeswell/music-profile-scraper" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">03</div>
-        <div className="meta"><img className="co-logo" src="../assets/logos/emirates-nbd.png" alt="IIT Kharagpur" /><span className="dot">·</span><span>2023 · Kharagpur</span><span className="dot">·</span><span>Data Pipeline</span></div>
-        <div className="ttl">automated trading <span className="a">pipeline &amp; signal backtesting.</span></div>
-        <p className="lede">Engineered automated data pipeline processing 10,000+ price points daily using Python and yfinance API, generating SMA crossover signals at 85% backtesting accuracy.</p>
-        <div className="tags"><span className="tag">Python</span><span className="tag">APIs</span><span className="tag">Financial Analytics</span></div>
-        <div className="row-foot">
-        </div>
+        <div className="meta"><span className="co">music profile scraper</span><span className="dot">·</span><span>2026 · live</span><span className="dot">·</span><span>music intelligence</span></div>
+        <div className="ttl">artist intelligence studio, <span className="a">zero auth required.</span></div>
+        <p className="lede">FastAPI platform that scrapes public Spotify/Apple Music profiles without API keys, fuses cross-platform taxonomies, generates EPKs, and exposes it all via an MCP server.</p>
+        <div className="tags"><span className="tag">FastAPI</span><span className="tag">MCP Protocol</span><span className="tag">Docker</span></div>
       </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot"><video src="../assets/case/fx/cover-loop-hd.mp4?v=4" poster="../assets/case/fx/cover-loop-hd-poster.jpg?v=4" aria-label="Trading analysis" muted loop playsInline autoPlay></video></div></div>
-    </div>
+      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
+        <div className="mini-music" aria-hidden="true">
+          <div className="mini-profile"><span className="mini-av"></span><div><b>artist intelligence</b><small>monthly listeners · 2.4M</small></div></div>
+          <div className="mini-chips"><span>spotify</span><span>apple music</span><span>mcp server</span></div>
+        </div>
+      </div></div>
+    </a>
 
-    {/* 04 TIMETINT pharmaceutical label */}
-    <div className="case" data-href="/case-business">
+    {/* 04 AniQuest */}
+    <a className="case" href="https://aniquest-snowy.vercel.app" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">04</div>
-        <div className="meta"><img className="co-logo" src="../assets/logos/emirates-nbd.png" alt="IIT Kharagpur" /><span className="dot">·</span><span>2024 · Kharagpur</span><span className="dot">·</span><span>Product Design</span></div>
-        <div className="ttl">TIMETINT pharmaceutical <span className="a">color-changing label.</span></div>
-        <p className="lede">Ideated a smart color-changing label for pharmaceuticals to reduce expired medicine use by 60% for patient safety. Won 1st place in Inter-hall Product Design.</p>
-        <div className="tags"><span className="tag">0→1</span><span className="tag">Product Design</span><span className="tag">Patent/Safety</span></div>
-        <div className="row-foot">
-        </div>
+        <div className="meta"><span className="co">aniquest</span><span className="dot">·</span><span>2026 · live</span><span className="dot">·</span><span>web app</span></div>
+        <div className="ttl">anime discovery terminal <span className="a">on anilist graphql.</span></div>
+        <p className="lede">Search thousands of titles, spin the roulette, track release calendars with local-timezone countdowns, chain recommendations, and build shareable binge lists — no login.</p>
+        <div className="tags"><span className="tag">React 18</span><span className="tag">TypeScript</span><span className="tag">GraphQL</span><span className="tag">TanStack Query</span></div>
       </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover phonecover"><span className="live">▶ live demo</span><video src="../assets/case/bo/flow1.mp4" poster="../assets/case/bo/flow1-poster.png" muted loop playsInline autoPlay></video></div></div>
-    </div>
+      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
+        <div className="mini-ani" aria-hidden="true">
+          <div className="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div className="mini-cmd">⌘K search anime + manga…</div>
+        </div>
+      </div></div>
+    </a>
 
-    {/* 05 Healthcare Equity Data Exploration */}
-    <div className="case" data-href="/case-smarttrade">
+    {/* 05 Forex Trading System */}
+    <a className="case" href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener">
       <div className="text">
         <div className="num">05</div>
-        <div className="meta"><img className="co-logo" src="../assets/logos/emirates-nbd.png" alt="IIT Kharagpur" /><span className="dot">·</span><span>2023 · Kharagpur</span><span className="dot">·</span><span>Data Science</span></div>
-        <div className="ttl">healthcare equity <span className="a">exploratory data analysis.</span></div>
-        <p className="lede">Analyzed 4000-row dataset extracting pay equity metrics across 2585 hospitals in 5 states using Python and SQL. Built Power BI dashboard with 15 visualizations.</p>
-        <div className="tags"><span className="tag">SQL</span><span className="tag">Python</span><span className="tag">Power BI</span></div>
-        <div className="row-foot">
-        </div>
+        <div className="meta"><span className="co">forex trading system</span><span className="dot">·</span><span>2023 · kharagpur</span><span className="dot">·</span><span>algo trading</span></div>
+        <div className="ttl">automated trading <span className="a">pipeline &amp; signal backtesting.</span></div>
+        <p className="lede">Engineered a data pipeline processing 10,000+ EUR/USD price points daily with yfinance, generating SMA crossover signals at 85% backtested accuracy with 90% uptime.</p>
+        <div className="tags"><span className="tag">Python</span><span className="tag">yfinance</span><span className="tag">SMA Crossover</span><span className="tag">Backtesting</span></div>
       </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot"><video src="../assets/case/smarttrade/cover-loop.mp4" poster="../assets/case/smarttrade/cover-loop-poster.jpg" aria-label="Healthcare dashboard" muted loop playsInline autoPlay></video></div></div>
-    </div>
-
-    {/* 06 Gender Bias Detection NLP Model */}
-    <div className="case" data-href="/case-googlehealth">
-      <div className="text">
-        <div className="num">06</div>
-        <div className="meta"><span>2022 · Kharagpur</span><span className="dot">·</span><span>Machine Learning</span><span className="dot">·</span><span>NLP model</span></div>
-        <div className="ttl">gender bias detection <span className="a">using deep learning.</span></div>
-        <p className="lede">Developed deep learning classifiers (BERT, ANN, RNN) to detect gender bias in 2000+ sentences with 92% accuracy, winning 2nd place in Open IIT Data Analytics.</p>
-        <div className="tags"><span className="tag">NLP</span><span className="tag">BERT</span><span className="tag">Machine Learning</span></div>
-        <div className="row-foot">
+      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover shot dark-demo">
+        <div className="mini-forex" aria-hidden="true">
+          <svg viewBox="0 0 260 90" preserveAspectRatio="none">
+            <polyline points="0,70 26,62 52,66 78,48 104,54 130,38 156,44 182,26 208,32 234,18 260,22" fill="none" stroke="#fff" strokeWidth="2" />
+            <circle cx="130" cy="38" r="3.4" fill="#5fd29a" />
+            <circle cx="208" cy="32" r="3.4" fill="#ff8f8f" />
+          </svg>
+          <span className="mini-buy">buy · SMA 50&gt;200</span>
         </div>
-      </div>
-      <div className="media cn-tilt" data-cine-tilt="1" style={{ translate: "none", rotate: "none", scale: "none", transform: "perspective(1100px)" }}><div className="cover phonecover"><div className="gh-cmp" data-ghcmp="" style={{ "--pos": "59.52960296587954%" } as React.CSSProperties}><img className="gh-ph after" src="../assets/case/googlehealth/gh-after.png" alt="redesign" /><img className="gh-ph before" src="../assets/case/googlehealth/gh-before.png" alt="original" /><div className="gh-div"></div><div className="gh-handle">↔</div><span className="gh-tag l">before</span><span className="gh-tag r">after</span></div></div></div>
-    </div>
+      </div></div>
+    </a>
 
   </main>
 
@@ -184,21 +193,6 @@ export default function Page() {
       if(e.target.closest('.demo')||e.target.closest('a')) return;
       var h=c.dataset.href; if(h) location.href=h;
     });
-  });
-  // before/after drag compare on the Google Health cover (grab to pause the auto-sweep)
-  document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
-    function setPos(x){ var r=cmp.getBoundingClientRect();
-      var p=Math.max(4,Math.min(96,(x-r.left)/r.width*100)); cmp.style.setProperty('--pos',p+'%'); }
-    var drag=false,pause=0,t=0;
-    cmp.addEventListener('pointerdown',function(e){ drag=true; cmp.classList.add('dragging');
-      try{ cmp.setPointerCapture(e.pointerId); }catch(_){}
-      setPos(e.clientX); e.preventDefault(); e.stopPropagation(); });
-    cmp.addEventListener('pointermove',function(e){ if(drag) setPos(e.clientX); });
-    function end(){ if(drag){ drag=false; cmp.classList.remove('dragging'); pause=performance.now()+2800; } }
-    cmp.addEventListener('pointerup',end);
-    cmp.addEventListener('pointercancel',end);
-    cmp.addEventListener('click',function(e){ e.stopPropagation(); });
-    if(!matchMedia('(prefers-reduced-motion:reduce)').matches){function loop(now){if(!drag&&now>pause){t+=0.016;cmp.style.setProperty('--pos',(50+22*Math.sin(t))+'%');}requestAnimationFrame(loop);}requestAnimationFrame(loop);}
   });
   var ans=document.getElementById('helpAns');
   document.querySelectorAll('.help-item').forEach(function(b){
@@ -256,7 +250,7 @@ export default function Page() {
   <Script src="/smooth-scroll.js"  strategy="afterInteractive" />
 
 
-<div id="gachat"><button className="gachat-launch" type="button" aria-label="Ask about Dinesh"><span className="dot"></span><b>ask about dinesh</b></button><div className="gachat-panel" role="dialog" aria-label="Chat about Dinesh" aria-modal="false"><div className="gachat-head"><div className="gachat-av"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 6l2.4 5.4L12 18l-2.4-6.6z" fill="#fff" stroke="none"></path></svg></div><div className="gc-htxt"><div className="ttl">ask about <span className="a">dinesh</span></div><div className="sub"><span className="live"></span>online · replies instantly</div></div><button className="gachat-iconbtn gc-voice" type="button" aria-pressed="false" aria-label="Voice mode — read replies aloud" title="Voice mode (read replies aloud)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"></path><path d="M19 5a9 9 0 0 1 0 14"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path></svg></button><button className="gachat-iconbtn gc-reset" type="button" aria-label="Clear conversation" title="Clear"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg></button><button className="gachat-iconbtn gc-close" type="button" aria-label="Close chat" title="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></button></div><div className="gachat-log" aria-live="polite"></div><form className="gachat-form"><div className="gachat-inwrap"><textarea rows={1} placeholder="ask me something…" aria-label="Your message" maxLength={600}></textarea></div><button className="gachat-mic" type="button" aria-label="Speak your question" title="Tap to speak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="2" width="6" height="11" rx="3"></rect><path d="M5 10a7 7 0 0 0 14 0"></path><path d="M12 17v4"></path><path d="M8 21h8"></path></svg></button><button className="gachat-send" type="submit" aria-label="Send" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"></path></svg></button></form><div className="gachat-foot">grounded in dinesh’s real work · portfolio assistant</div></div></div><footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time <b id="gfClock">2:31 AM</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer><canvas className="cn-motes cn-motes-fixed" aria-hidden="true" data-engine="three.js r160" width="1440" height="900" style={{ opacity: "1", visibility: "inherit" }}></canvas>
+<div id="gachat"><button className="gachat-launch" type="button" aria-label="Ask about Dinesh"><span className="dot"></span><b>ask about dinesh</b></button><div className="gachat-panel" role="dialog" aria-label="Chat about Dinesh" aria-modal="false"><div className="gachat-head"><div className="gachat-av"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 6l2.4 5.4L12 18l-2.4-6.6z" fill="#fff" stroke="none"></path></svg></div><div className="gc-htxt"><div className="ttl">ask about <span className="a">dinesh</span></div><div className="sub"><span className="live"></span>online · replies instantly</div></div><button className="gachat-iconbtn gc-voice" type="button" aria-pressed="false" aria-label="Voice mode — read replies aloud" title="Voice mode (read replies aloud)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"></path><path d="M19 5a9 9 0 0 1 0 14"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path></svg></button><button className="gachat-iconbtn gc-reset" type="button" aria-label="Clear conversation" title="Clear"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg></button><button className="gachat-iconbtn gc-close" type="button" aria-label="Close chat" title="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></button></div><div className="gachat-log" aria-live="polite"></div><form className="gachat-form"><div className="gachat-inwrap"><textarea rows={1} placeholder="ask me something…" aria-label="Your message" maxLength={600}></textarea></div><button className="gachat-mic" type="button" aria-label="Speak your question" title="Tap to speak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="2" width="6" height="11" rx="3"></rect><path d="M5 10a7 7 0 0 0 14 0"></path><path d="M12 17v4"></path><path d="M8 21h8"></path></svg></button><button className="gachat-send" type="submit" aria-label="Send" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"></path></svg></button></form><div className="gachat-foot">grounded in dinesh’s real work · portfolio assistant</div></div></div><footer id="gfooter" className="ground"><div className="gf-sky" aria-hidden="true"><span className="gf-cloud c1"></span><span className="gf-cloud c2"></span><span className="gf-cloud c3"></span><span className="gf-cloud c4"></span></div><div className="ground-contact"><div className="gf-top"><div className="gf-cta"><div className="ground-kick">contact</div><h2 className="ground-ttl">let’s build <em>something that matters.</em></h2><a className="ground-mail" href="mailto:dineshkatal.work@gmail.com">dineshkatal.work@gmail.com <span className="arw">→</span></a><p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p></div><nav className="gf-cols" aria-label="footer"><div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div><div className="gf-col"><span className="gf-h">connect</span><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div><div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div></nav></div><div className="gf-bar"><a className="gf-mark" href="/"><svg viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh.</a><div className="gf-meta"><span>© 2026 dinesh kumar katal</span><span>designed &amp; built by me — and a few too many coffees · switzer + react</span></div></div></div></footer><canvas className="cn-motes cn-motes-fixed" aria-hidden="true" data-engine="three.js r160" width="1440" height="900" style={{ opacity: "1", visibility: "inherit" }}></canvas>
 <style dangerouslySetInnerHTML={{ __html: `:root{
     --paper:var(--t-paper); --panel:#f5f5f5; --ink:var(--t-ink); --soft:var(--t-ink-soft); --muted:var(--t-ink-faint);
     --accent:var(--t-accent); --sun:var(--t-gold); --sage:var(--t-sage);
@@ -338,6 +332,43 @@ export default function Page() {
   .cover.shot{padding:0;min-height:0;aspect-ratio:16/10;background:rgba(20,32,52,.06);}
   .cover.shot img,.cover.shot video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;transition:transform 1.1s cubic-bezier(.22,1,.36,1);}
   .case:hover .cover.shot img,.case:hover .cover.shot video{transform:scale(1.04);}
+  /* dark live-project demo tiles (pure CSS, no external assets) */
+  .cover.dark-demo{display:grid;place-items:center;background:linear-gradient(150deg,#1c2735,#0a1628);border:1px solid rgba(255,255,255,.1);}
+  .mini-term,.mini-lyric,.mini-music,.mini-ani,.mini-forex{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:9px;padding:clamp(20px,3vw,36px);font-family:"Geist Mono",monospace;color:#fff;}
+  .mini-bar{display:flex;align-items:center;gap:5px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.14);}
+  .mini-bar i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.25);}
+  .mini-bar i:first-child{background:#ff8f8f;}.mini-bar i:nth-child(2){background:#ffd95b;}.mini-bar i:nth-child(3){background:#5fd29a;}
+  .mini-bar span{margin-left:7px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.5);}
+  .mini-row{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.03em;color:rgba(255,255,255,.85);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:6px 10px;}
+  .mini-dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;}
+  .mini-dot.g{background:#5fd29a;box-shadow:0 0 8px rgba(95,210,154,.8);animation:miniBlink 1.8s ease-in-out infinite;}
+  .mini-dot.y{background:#ffd95b;box-shadow:0 0 8px rgba(255,217,91,.7);animation:miniBlink 1.8s .6s ease-in-out infinite;}
+  .mini-dot.b{background:#7db8ff;box-shadow:0 0 8px rgba(125,184,255,.7);animation:miniBlink 1.8s 1.2s ease-in-out infinite;}
+  @keyframes miniBlink{0%,100%{opacity:.45}50%{opacity:1}}
+  .mini-msg{color:rgba(255,255,255,.55);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .mini-eq{display:flex;align-items:flex-end;gap:5px;height:40px;}
+  .mini-eq i{width:7px;border-radius:3px;background:linear-gradient(180deg,#7db8ff,#0083E7);animation:miniEq 1.15s ease-in-out infinite alternate;}
+  .mini-eq i:nth-child(odd){height:60%;}
+  .mini-eq i:nth-child(even){height:92%;animation-duration:.9s;}
+  @keyframes miniEq{from{transform:scaleY(.45)}to{transform:scaleY(1.12)}}
+  .mini-lyric{align-items:center;text-align:center;}
+  .mini-ln{font-size:12px;letter-spacing:.06em;color:rgba(255,255,255,.45);}
+  .mini-ln.on{color:#fff;text-shadow:0 0 14px rgba(125,184,255,.9);}
+  .mini-1080{position:absolute;right:16px;top:14px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 9px;}
+  .mini-profile{display:flex;align-items:center;gap:12px;}
+  .mini-av{flex:0 0 auto;width:48px;height:48px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#7db8ff,#0083E7 70%);box-shadow:0 8px 20px rgba(0,131,231,.4);}
+  .mini-profile b{display:block;font-family:"Satoshi","Switzer",sans-serif;font-weight:700;font-size:14px;letter-spacing:-.01em;}
+  .mini-profile small{display:block;margin-top:3px;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55);}
+  .mini-chips{display:flex;flex-wrap:wrap;gap:6px;}
+  .mini-chips span{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:4px 10px;}
+  .mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:72%;}
+  .mini-grid i{aspect-ratio:3/4;border-radius:7px;background:linear-gradient(145deg,rgba(125,184,255,.55),rgba(0,131,231,.28));border:1px solid rgba(255,255,255,.16);}
+  .mini-grid i:nth-child(2){background:linear-gradient(145deg,rgba(255,217,91,.5),rgba(255,143,143,.3));}
+  .mini-grid i:nth-child(3){background:linear-gradient(145deg,rgba(95,210,154,.5),rgba(0,131,231,.25));}
+  .mini-cmd{width:72%;font-size:10.5px;letter-spacing:.05em;color:rgba(255,255,255,.72);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:9px;padding:8px 12px;}
+  .mini-forex svg{width:100%;height:clamp(64px,8vw,96px);}
+  .mini-buy{align-self:flex-start;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#5fd29a;border:1px solid rgba(95,210,154,.5);border-radius:999px;padding:4px 10px;background:rgba(95,210,154,.1);}
+  @media(prefers-reduced-motion:reduce){.mini-eq i,.mini-dot{animation:none!important;}}
   .cover.phonecover{padding:0;min-height:0;aspect-ratio:16/10;display:flex;justify-content:center;align-items:flex-start;padding-top:24px;
     background:linear-gradient(165deg,#d8e5f7 0%,#aecbef 56%,#8eb4e6 100%);}
   .cover.phonecover video,.cover.phonecover img{width:52%;height:auto;max-width:none;object-fit:contain;align-self:flex-start;position:static;inset:auto;transition:transform 1.1s cubic-bezier(.22,1,.36,1);}

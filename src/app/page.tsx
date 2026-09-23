@@ -42,7 +42,7 @@ export default function Page() {
 
   return (
     <>
-      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="/blog">blogs</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
+      <div id="gnav"><div className="gnav-bar"><a className="gnav-brand" href="/"><svg className="gnav-mark" viewBox="0 0 30 26" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" aria-hidden="true"><g className="sun"><path d="M9 18a6 6 0 0 1 12 0" fill="currentColor" stroke="none"></path><line x1="15" y1="7" x2="15" y2="4.2"></line><line x1="7.2" y1="10.2" x2="5.4" y2="8.6"></line><line x1="22.8" y1="10.2" x2="24.6" y2="8.6"></line></g><line x1="2.5" y1="18" x2="27.5" y2="18"></line></svg>dinesh<span className="gnav-dot">.</span></a><button className="gnav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gnavMenu"><span className="gb-txt">menu</span><span className="gb-ico"><span className="gb-l"></span><span className="gb-l"></span></span></button></div><nav className="gnav-dock" aria-label="primary"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav><div className="gnav-menu" id="gnavMenu" aria-hidden="true"><nav className="gnav-menu-inner" aria-label="menu"><a href="/work">work</a><a href="/beyond">about</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a><a className="cta" href="/quick">quick view <span className="arw">→</span></a><a className="cta cta-ghost" href="mailto:dineshkatal.work@gmail.com">let’s talk <span className="arw">→</span></a></nav></div></div>
 
 {/* splash intro */}
 
@@ -69,13 +69,13 @@ export default function Page() {
   {/* ░░ wandering bees → fireflies at night ░░ */}
   <div className="bees" id="bees" aria-hidden="true" style={{ translate: "none", rotate: "none", scale: "none", opacity: "1", transform: "translate(0px, 0px)" }}></div>
 
-  {/* ░░ green meadow band cropped from your illustration ░░ */}
-  <div className="meadow" data-depth="0.6" style={{ translate: "none", rotate: "none", scale: "none", transformOrigin: "828px 148.023px", opacity: "1", transform: "translate(0px, 0px)" }}>
+  {/* ░░ alpine meadow band with stream — transparent sky, tints with the time-of-day slider ░░ */}
+  <div className="meadow" data-depth="0.6" style={{ opacity: "1", transform: "translate(0px, 0px)" }}>
     <picture>
       <source media="(max-width:720px)" type="image/webp" srcSet="/assets/hero/meadow-band-mobile.webp" />
       <source media="(max-width:720px)" srcSet="/assets/hero/meadow-band-mobile.png" />
       <source type="image/webp" srcSet="/assets/hero/meadow-band-v5.webp" />
-      <img src="/assets/hero/meadow-band-v5.png" alt="meadow with flowers and a couple at the treeline" />
+      <img src="/assets/hero/meadow-band-v5.png" alt="alpine meadow with a winding stream and wildflowers" />
     </picture>
   </div>
 
@@ -87,7 +87,7 @@ export default function Page() {
       <a href="/work">work</a>
       <a className="hideSm" href="/beyond">lil&nbsp;about&nbsp;me</a>
       
-      <a href="/blog">blogs</a>
+      
       <a className="hideSm" href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin <span className="exti">↗</span></a>
       <a className="hideSm" href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé <span className="exti">↓</span></a>
       <a className="cta cta-ghost" href="/quick">quick&nbsp;view <span className="arw">→</span></a>
@@ -138,71 +138,81 @@ export default function Page() {
   <div className="ai-wrap">
     <div className="sw-head ai-rv">
       <h2>Selected <em>work.</em></h2>
-      <a className="sw-seeall" href="https://dinesh.design/work.html" target="_blank" rel="noopener">see all <i>→</i></a>
+      <a className="sw-seeall" href="https://github.com/Dinesh-codeswell?tab=repositories" target="_blank" rel="noopener">all repositories <i>→</i></a>
     </div>
     <div className="sw-filters ai-rv" id="swFilters" role="group" aria-label="filter work"><span className="sw-thumb" aria-hidden="true" style={{ width: "59px", transform: "translateX(0px)" }}></span>
       <button className="on" data-f="all">all</button>
-      <button data-f="01">0 → 1</button>
       <button data-f="agentic">agentic</button>
-      <button data-f="fintech">fintech</button>
-      <button data-f="enterprise">enterprise</button>
-      <button data-f="e2e">end to end</button>
+      <button data-f="ai">ai</button>
+      <button data-f="data">data</button>
+      <button data-f="web">web</button>
+      <button data-f="python">python</button>
     </div>
     <div className="sw-grid">
-      {/* Commented out Gauravi's NDA/Songdew work card
-      <a className="sw-card ai-rv feat" data-f="01 agentic e2e" href="https://dinesh.design/case-podonos.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc0" }}>
-        <div className="sw-media nda"><video src="/assets/case/podonos/onepin-flow.mp4" poster="/assets/case/podonos/onepin-flow-poster.jpg" aria-label="OnePin: the new 101 voice workflow wiring itself node by node" muted loop playsInline autoPlay></video><div className="nda-hover" aria-label="under NDA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.2"></rect><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"></path><circle cx="12" cy="15.2" r="1.25" fill="currentColor" stroke="none"></circle></svg><span>under nda</span></div></div>
-        <div className="sw-body"><h3 className="sw-ttl">Revamped EPK module, <em>driving 65% completion.</em></h3><div className="sw-meta">product intern · songdew media<br /><b>boosted engagement by 30%</b></div></div>
+      <a className="sw-card ai-rv feat" data-f="agentic ai" href="https://github.com/Dinesh-codeswell/fried-viper" target="_blank" rel="noopener" style={{ viewTransitionName: "swc1" }}>
+        <div className="sw-media app">
+          <div className="proj-demo pd-viper" aria-hidden="true">
+            <div className="pd-term">
+              <div className="pd-bar"><i></i><i></i><i></i><span>fried-viper — hacker hostel floor</span></div>
+              <div className="pd-agent"><span className="pd-dot d1"></span>claude<span className="pd-msg">refactored middle-out core ✓</span></div>
+              <div className="pd-agent"><span className="pd-dot d2"></span>codex<span className="pd-msg">inbox: 3 tasks claimed</span></div>
+              <div className="pd-agent"><span className="pd-dot d3"></span>grok<span className="pd-msg">shipping v0.4 to the floor…</span></div>
+              <div className="pd-cursor">▍</div>
+            </div>
+          </div>
+          <span className="sw-badge">fried viper</span>
+        </div>
+        <div className="sw-body"><h3 className="sw-ttl">A hacker hostel of <em>self-coordinating AI agents.</em></h3><div className="sw-meta">multi-agent terminal harness<br /><b>electron · react · typescript · pixi.js</b></div></div>
       </a>
-      */}
-      <a className="sw-card ai-rv feat" data-f="enterprise e2e fintech" href="https://dinesh.design/case-fxonline.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc1" }}>
-        <div className="sw-media"><span className="sw-badge">FX Online</span><video src="/assets/case/fx/cover-loop-hd.mp4?v=2" poster="/assets/case/fx/cover-loop-hd-poster.jpg?v=2" aria-label="FX online order screen" muted loop playsInline autoPlay></video></div>
-        <div className="sw-body"><h3 className="sw-ttl">Automated trading, <em>with 85% accuracy.</em></h3><div className="sw-meta">trading performance analysis<br /><b>SMA strategies · python</b></div></div>
+      <a className="sw-card ai-rv" data-f="python ai web" href="https://github.com/Dinesh-codeswell/lyrical-video" target="_blank" rel="noopener" style={{ viewTransitionName: "swc2" }}>
+        <div className="sw-media app">
+          <div className="proj-demo pd-lyric" aria-hidden="true">
+            <div className="pd-bars"><i style={{ animationDelay: "0s" }}></i><i style={{ animationDelay: ".12s" }}></i><i style={{ animationDelay: ".24s" }}></i><i style={{ animationDelay: ".36s" }}></i><i style={{ animationDelay: ".48s" }}></i><i style={{ animationDelay: ".6s" }}></i><i style={{ animationDelay: ".72s" }}></i></div>
+            <div className="pd-line on">~ cause baby you're a firework ~</div>
+            <div className="pd-line">come on show 'em what you're worth</div>
+            <span className="pd-1080">1080p · h.264</span>
+          </div>
+          <span className="sw-badge">lyrical video</span>
+        </div>
+        <div className="sw-body"><h3 className="sw-ttl">Cinematic lyric videos, <em>rendered from raw audio.</em></h3><div className="sw-meta">web studio · desktop gui · cli<br /><b>python · fastapi · ffmpeg · ai transcription</b></div></div>
       </a>
-      <a className="sw-card ai-rv" data-f="enterprise e2e fintech" href="https://dinesh.design/case-smarttrade.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc2" }}>
-        <div className="sw-media"><span className="sw-badge">smartTRADE</span><video src="/assets/case/smarttrade/cover-loop.mp4" poster="/assets/case/smarttrade/cover-loop-poster.jpg" aria-label="smartTRADE letter of credit" muted loop playsInline autoPlay></video></div>
-        <div className="sw-body"><h3 className="sw-ttl">Color-changing label <em>for pharmaceuticals.</em></h3><div className="sw-meta">product design GC · GOLD<br /><b>60% expired reduction</b></div></div>
+      <a className="sw-card ai-rv" data-f="python data web" href="https://github.com/Dinesh-codeswell/music-profile-scraper" target="_blank" rel="noopener" style={{ viewTransitionName: "swc3" }}>
+        <div className="sw-media app">
+          <div className="proj-demo pd-music" aria-hidden="true">
+            <div className="pd-profile">
+              <span className="pd-av"></span>
+              <div><b>artist intelligence</b><small>monthly listeners · 2.4M</small></div>
+            </div>
+            <div className="pd-chips"><span>spotify</span><span>apple music</span><span>mcp server</span></div>
+          </div>
+          <span className="sw-badge">live · music-profile-scraper</span>
+        </div>
+        <div className="sw-body"><h3 className="sw-ttl">Music intelligence studio, <em>zero auth, zero API keys.</em></h3><div className="sw-meta">fastapi · mcp protocol · docker<br /><b>spotify + apple ingestion → epk generator</b></div></div>
       </a>
-      {/* Commented out Gauravi's Beyond Career card
-      <a className="sw-card ai-rv" data-f="enterprise e2e fintech" href="https://dinesh.design/case-business.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc3" }}>
-        <div className="sw-media phone"><span className="sw-badge">▶ live demo</span><video src="/assets/case/bo/flow1.mp4" poster="/assets/case/bo/flow1-poster.png" muted loop playsInline autoPlay></video></div>
-        <div className="sw-body"><h3 className="sw-ttl">Beyond Career, <em>scaling to 20k+ users.</em></h3><div className="sw-meta">founding member & product lead<br /><b>99.9% platform uptime</b></div></div>
+      <a className="sw-card ai-rv" data-f="web" href="https://aniquest-snowy.vercel.app" target="_blank" rel="noopener" style={{ viewTransitionName: "swc4" }}>
+        <div className="sw-media app">
+          <div className="proj-demo pd-ani" aria-hidden="true">
+            <div className="pd-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div className="pd-cmd">⌘K search anime + manga…</div>
+          </div>
+          <span className="sw-badge">live · aniquest</span>
+        </div>
+        <div className="sw-body"><h3 className="sw-ttl">Anime discovery terminal <em>on AniList GraphQL.</em></h3><div className="sw-meta">react 18 · vite · typescript · tanstack query<br /><b>roulette · release calendar · binge lists</b></div></div>
       </a>
-      */}
-      <a className="sw-card ai-rv" data-f="enterprise fintech" href="https://dinesh.design/case-mashreq.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc4" }}>
-        <div className="sw-media"><span className="sw-badge">Mashreq · care</span><img src="/assets/case/mashreq/mq-search.png" alt="Mashreq customer care" loading="lazy" /></div>
-        <div className="sw-body"><h3 className="sw-ttl">HubSpot EdTech, <em>150% lead boost.</em></h3><div className="sw-meta">business analyst intern · edupolis<br /><b>25% enrollment growth</b></div></div>
+      <a className="sw-card ai-rv" data-f="data" href="https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current" target="_blank" rel="noopener" style={{ viewTransitionName: "swc5" }}>
+        <div className="sw-media app">
+          <div className="proj-demo pd-forex" aria-hidden="true">
+            <svg viewBox="0 0 260 90" preserveAspectRatio="none">
+              <polyline points="0,70 26,62 52,66 78,48 104,54 130,38 156,44 182,26 208,32 234,18 260,22" fill="none" stroke="#fff" strokeWidth="2" />
+              <circle cx="130" cy="38" r="3.4" fill="#5fd29a" />
+              <circle cx="208" cy="32" r="3.4" fill="#ff8f8f" />
+            </svg>
+            <span className="pd-buy">buy · SMA 50&gt;200</span>
+          </div>
+          <span className="sw-badge">forex trading system</span>
+        </div>
+        <div className="sw-body"><h3 className="sw-ttl">Automated trading pipeline, <em>85% signal accuracy.</em></h3><div className="sw-meta">10,000+ price points daily · python<br /><b>sma crossover · yfinance · backtesting</b></div></div>
       </a>
-      <a className="sw-card ai-rv" data-f="01" href="https://dinesh.design/case-googlehealth.html" target="_blank" rel="noopener" style={{ viewTransitionName: "swc5" }}>
-        <div className="sw-media phone"><div className="gh-cmp" data-ghcmp="" style={{ "--pos": "59.211133777456155%" } as React.CSSProperties}><img className="gh-ph after" src="/assets/case/googlehealth/gh-after.png" alt="redesign" /><img className="gh-ph before" src="/assets/case/googlehealth/gh-before.png" alt="original" /><div className="gh-div"></div><div className="gh-handle">↔</div><span className="gh-tag l">before</span><span className="gh-tag r">after</span></div></div>
-        <div className="sw-body"><h3 className="sw-ttl">Healthcare equity, <em>across 5 states.</em></h3><div className="sw-meta">4,000-row dataset analysis<br /><b>SQL & powerBI dashboard</b></div></div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section className="ai-sec ai-logos">
-  <div className="logos-wrap ai-rv">
-    <div className="logos-kick">companies i've worked with</div>
-    <div className="logos-rail">
-      <div className="logos-track">
-        <img src="/assets/logos/white/emirates-nbd.png" alt="Emirates NBD" loading="lazy" />
-        <img src="/assets/logos/white/mashreq.png" alt="Mashreq" loading="lazy" />
-        <img src="/assets/logos/white/accenture-song.png" alt="Accenture Song" loading="lazy" />
-        <img src="/assets/logos/white/specsavers.png" alt="Specsavers" loading="lazy" />
-        <img src="/assets/logos/white/podonos.png" alt="Podonos" loading="lazy" />
-        <img src="/assets/logos/white/jumeirah.svg" alt="Jumeirah Group" loading="lazy" />
-        <img src="/assets/logos/white/flooff.svg" alt="Flooff" loading="lazy" />
-        <span className="logo-txt">Daniel Wellington</span>
-        <img src="/assets/logos/white/emirates-nbd.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/mashreq.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/accenture-song.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/specsavers.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/podonos.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/jumeirah.svg" alt="" aria-hidden="true" loading="lazy" />
-        <img src="/assets/logos/white/flooff.svg" alt="" aria-hidden="true" loading="lazy" />
-        <span className="logo-txt" aria-hidden="true">Daniel Wellington</span>
-      </div>
     </div>
   </div>
 </section>
@@ -277,107 +287,128 @@ export default function Page() {
 <section className="ai-sec ai-creds" id="credentials">
   <div className="ai-wrap">
     <div className="creds-grid">
-      {/* Left Column: Academic Credentials */}
+      {/* Left Column: Academic Credentials + Certifications on a timeline rail */}
       <div className="creds-col">
         <div className="creds-col-ttl ai-rv">
           <span className="eyebrow">— background —</span>
           <h3>academic <em>seals.</em></h3>
         </div>
-        
-        {/* Card 1 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">2020 - 2025</span>
-            <span className="creds-card-badge">🎓 Grad</span>
+        <div className="creds-rail">
+          {/* Card 1 */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">2020 — 2025</span>
+              <span className="creds-card-badge">degree</span>
+            </div>
+            <h4 className="creds-card-title">Integrated Dual Degree (B.Tech + M.Tech)</h4>
+            <h5 className="creds-card-subtitle">Indian Institute of Technology, Kharagpur</h5>
+            <p className="creds-card-desc">Mining Engineering · CGPA 8.03. Coursework in ML, Business Analytics, Data Visualization, DBMS, and Entrepreneurship.</p>
           </div>
-          <h4 className="creds-card-title">Integrated Dual Degree (B.Tech + M.Tech)</h4>
-          <h5 className="creds-card-subtitle">Indian Institute of Technology, Kharagpur</h5>
-          <p className="creds-card-desc">Mining Engineering. CGPA 8.03. Relevant coursework in ML, Business Analytics, Data Visualization, DBMS, and Entrepreneurship.</p>
-        </div>
 
-        {/* Card 2 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">MAR - MAY 2025</span>
-            <span className="creds-card-badge">🏆 Aspire</span>
+          {/* Card 2 */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">MAR — MAY 2025</span>
+              <span className="creds-card-badge">harvard</span>
+            </div>
+            <h4 className="creds-card-title">Aspire Advanced Leadership Program</h4>
+            <h5 className="creds-card-subtitle">Harvard Business School · Aspire Institute</h5>
+            <p className="creds-card-desc">Selected for HBS's global initiative. Intensive coursework in leadership development and social innovation.</p>
           </div>
-          <h4 className="creds-card-title">Aspire Advanced Leadership Program</h4>
-          <h5 className="creds-card-subtitle">Harvard Business School (Aspire Institute)</h5>
-          <p className="creds-card-desc">Selected for HBS global initiative. Completed intensive global coursework in leadership development and social innovation.</p>
-        </div>
 
-        {/* Card 3 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">APR - JUN 2025</span>
-            <span className="creds-card-badge">💻 Stanford</span>
+          {/* Card 3 */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">APR — JUN 2025</span>
+              <span className="creds-card-badge">stanford</span>
+            </div>
+            <h4 className="creds-card-title">Code in Place — Python</h4>
+            <h5 className="creds-card-subtitle">Stanford University</h5>
+            <p className="creds-card-desc">Stanford's public-service programming course: Python and CS fundamentals under Stanford CS professors.</p>
           </div>
-          <h4 className="creds-card-title">Code in Place (Python)</h4>
-          <h5 className="creds-card-subtitle">Stanford University</h5>
-          <p className="creds-card-desc">Stanford's public service programming course. Learned Python programming and computer science fundamentals under Stanford CS professors.</p>
-        </div>
 
-        {/* Card 4 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">APR - JUN 2025</span>
-            <span className="creds-card-badge">📊 McKinsey</span>
+          {/* Card 4 */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">APR — JUN 2025</span>
+              <span className="creds-card-badge">mckinsey</span>
+            </div>
+            <h4 className="creds-card-title">Forward Learning Program</h4>
+            <h5 className="creds-card-subtitle">McKinsey.org</h5>
+            <p className="creds-card-desc">10-week Forward journey in future-of-work skills: critical thinking, structured problem-solving, adaptive leadership.</p>
           </div>
-          <h4 className="creds-card-title">Forward Learning Program</h4>
-          <h5 className="creds-card-subtitle">McKinsey.org</h5>
-          <p className="creds-card-desc">Completed 10-week Forward journey focusing on future-of-work skills, critical thinking, problem-solving, and adaptive leadership.</p>
+
+          {/* Card 5 — certifications strip from JSON data */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">2023 — 2025</span>
+              <span className="creds-card-badge">certified</span>
+            </div>
+            <h4 className="creds-card-title">Certifications &amp; Training</h4>
+            <p className="creds-card-desc">ISRO AI/ML (CNN · RNN · YOLO) · CS50, Harvard (edX) · Machine Learning Specialization (Coursera) · LangChain for LLM Apps · Fundamentals of Equity Valuation (365 Financial Analyst) · Generative AI for Everyone.</p>
+          </div>
         </div>
       </div>
 
-      {/* Right Column: Competition Wins */}
+      {/* Right Column: Championship medals with real medal tints */}
       <div className="creds-col">
         <div className="creds-col-ttl ai-rv">
           <span className="eyebrow">— achievements —</span>
-          <h3>national <em>championships.</em></h3>
+          <h3>medals <em>&amp; podiums.</em></h3>
         </div>
-
-        {/* Competition Card 1 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">MAR - APR 2024</span>
-            <span className="creds-card-badge gold">🥇 1st Place</span>
+        <div className="creds-rail">
+          {/* Competition Card 1 */}
+          <div className="creds-card medal-gold ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">MAR — APR 2024</span>
+              <span className="creds-medal">gold · 1st</span>
+            </div>
+            <h4 className="creds-card-title">Product Design General Championship</h4>
+            <h5 className="creds-card-subtitle">Inter-hall Championship · IIT Kharagpur</h5>
+            <p className="creds-card-desc">1st of 15+ teams. Ideated TIMETINT, a smart color-changing pharma label cutting expired-medicine consumption by 60% for patient safety.</p>
           </div>
-          <h4 className="creds-card-title">Product Design General Championship</h4>
-          <h5 className="creds-card-subtitle">Inter-hall Championship · IIT Kharagpur</h5>
-          <p className="creds-card-desc">Secured 1st place among 15+ teams. Ideated TIMETINT, a smart color-changing label for pharmaceuticals that reduces expired medicine consumption by 60% for patient safety.</p>
-        </div>
 
-        {/* Competition Card 2 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">OCT - NOV 2022</span>
-            <span className="creds-card-badge silver">🥈 2nd Place</span>
+          {/* Competition Card 2 */}
+          <div className="creds-card medal-silver ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">OCT — NOV 2022</span>
+              <span className="creds-medal">silver · 2nd</span>
+            </div>
+            <h4 className="creds-card-title">Open IIT Data Analytics Competition</h4>
+            <h5 className="creds-card-subtitle">OpenIIT · IIT Kharagpur</h5>
+            <p className="creds-card-desc">2nd of 67 teams. NLP classifiers (BERT, ANN, RNN) detecting gender bias across 2,000+ sentence pairs with 89% accuracy.</p>
           </div>
-          <h4 className="creds-card-title">Open IIT Data Analytics Competition</h4>
-          <h5 className="creds-card-subtitle">Open IIT Analytics · IIT Kharagpur</h5>
-          <p className="creds-card-desc">Secured 2nd place out of 67 participating teams. Built advanced NLP classification models (BERT, ANN, RNN) to detect biases in 2000+ sentences with 92% accuracy.</p>
-        </div>
 
-        {/* Competition Card 3 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">OCTOBER 2022</span>
-            <span className="creds-card-badge">🏆 Finalist</span>
+          {/* Competition Card 3 */}
+          <div className="creds-card ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">OCTOBER 2022</span>
+              <span className="creds-medal">finalist</span>
+            </div>
+            <h4 className="creds-card-title">Product Design Open IIT</h4>
+            <h5 className="creds-card-subtitle">OpenIIT · IIT Kharagpur</h5>
+            <p class-name="creds-card-desc">Smart Knee Brace for a 30-crore-user market — production cost down 49.7%, robustness up 36%.</p>
           </div>
-          <h4 className="creds-card-title">Product Design Open IIT</h4>
-          <h5 className="creds-card-subtitle">Open IIT Product Design · IIT Kharagpur</h5>
-          <p className="creds-card-desc">Developed a Smart Knee Brace addressing a 30 Crore user market. Optimized production costs by 49.7% through material and market analysis, improving robustness by 36%.</p>
-        </div>
 
-        {/* Competition Card 4 */}
-        <div className="creds-card ai-rv">
-          <div className="creds-card-head">
-            <span className="creds-card-date">APRIL 2025</span>
-            <span className="creds-card-badge">🏃 Leadership</span>
+          {/* Competition Card 4 */}
+          <div className="creds-card medal-bronze ai-rv">
+            <span className="creds-node" aria-hidden="true"></span>
+            <div className="creds-card-head">
+              <span className="creds-card-date">JAN — FEB 2024</span>
+              <span className="creds-medal">bronze · captain</span>
+            </div>
+            <h4 className="creds-card-title">Athletics Captaincy &amp; GC Short Film</h4>
+            <h5 className="creds-card-subtitle">Nehru Hall · IIT Kharagpur</h5>
+            <p className="creds-card-desc">Led 21 athletes to Nehru Hall's historic inter-hall bronze; creative-directed the silver-winning GC short film.</p>
           </div>
-          <h4 className="creds-card-title">Athletics Captaincy &amp; GC Short Film</h4>
-          <h5 className="creds-card-subtitle">Nehru Hall of Residence · IIT Kharagpur</h5>
-          <p className="creds-card-desc">Team Captain of 21 athletes, achieving Nehru Hall's historic bronze medal. Managed logistics and creative direction for silver-winning General Championship short film.</p>
         </div>
       </div>
     </div>
@@ -448,17 +479,17 @@ export default function Page() {
 <section className="ai-sec abtme">
   <div className="ai-wrap">
     <div className="ai-rv">
-      <div className="eyebrow" style={{ translate: "none", rotate: "none", scale: "none", opacity: "1", transform: "translate(0px, 0px)" }}>the human behind the work</div>
-      <h2 className="ai-big">lil <em>about me.</em></h2>
+      <div className="eyebrow" style={{ translate: "none", rotate: "none", scale: "none", opacity: "1", transform: "translate(0px, 0px)" }}>the person behind the work</div>
+      <h2 className="ai-big">about <em>me.</em></h2>
     </div>
-    <a className="abtme-card ai-rv" href="/beyond" aria-label="a lil about dinesh - read more">
+    <a className="abtme-card ai-rv" href="/beyond" aria-label="more about dinesh - read the full story">
       <span className="abtme-aur" aria-hidden="true"></span><span className="abtme-aur2" aria-hidden="true"></span>
       <span className="abtme-photo">
-        <img src="/assets/dinesh_profile.png" alt="dinesh, off the clock" loading="lazy" />
+        <img src="/assets/dinesh_profile.png" alt="Dinesh Kumar Katal" loading="lazy" />
         <span className="abtme-cap">iit kharagpur → gurugram</span>
       </span>
       <div className="abtme-copy">
-        <p>product manager by title, <span className="pull">analyst by choice.</span> launching features taught me one thing: the best products make complex data feel <span className="pull">simple.</span> off the clock i write python, mentor students &amp; chase trails.</p>
+        <p>product manager and data analyst with an <span className="pull">engineer's grounding.</span> at beyond career i took a platform from early days to <span className="pull">20,000+ users</span>; off the clock i ship open-source projects, mentor aspiring PMs on topmate, and turn messy datasets into decisions.</p>
       </div>
     </a>
   </div>
@@ -483,6 +514,60 @@ export default function Page() {
         <article className="tmn-card"><p>Today's session with Beyond Career brought <span className="pull">instant clarity</span> to concepts I'd been struggling with for days. Their intuitive, practical style made even complex ideas feel simple. The roadmap they shared gave me a step-by-step approach for my specific goals.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/mansi.jpeg" alt="Mansi Agarwal" loading="lazy" /></span><div><div className="tmn-nm">Mansi Agarwal</div><div className="tmn-rl">IIM Indore (IPM)</div></div></div></article>
         <article className="tmn-card"><p>Amazing 😍. It felt like the mentor <span className="pull">truly understood</span> the modern job market and offered tailored, useful insights through Beyond Career. Extremely helpful in shaping my path.</p><div className="tmn-who"><span className="tmn-av"><img src="/assets/dtu.jpeg" alt="Sagar" loading="lazy" /></span><div><div className="tmn-nm">Sagar</div><div className="tmn-rl">DTU, Delhi</div></div></div></article>
       </div></div>
+    </div>
+  </div>
+</section>
+
+{/* ===== topmate — live mentorship stats & badges (data pulled from topmate.io/dinesh_katal) ===== */}
+
+<section className="ai-sec ai-topmate">
+  <div className="ai-wrap">
+    <div className="tm-grid">
+      <div className="tm-intro ai-rv">
+        <div className="eyebrow">mentoring on topmate</div>
+        <h2 className="ai-big">top 0.1% <em>mentor.</em></h2>
+        <p className="tm-sub">1:1 career sessions on resume reviews, product careers and data roles — rated <b>4.9 / 5</b> across <b>7 reviews</b>.</p>
+        <div className="tm-nums">
+          <div className="tm-num"><span className="tm-n">4.9<em>/5</em></span><span className="tm-l">avg rating</span></div>
+          <div className="tm-num"><span className="tm-n">25+</span><span className="tm-l">sessions booked</span></div>
+          <div className="tm-num"><span className="tm-n">0.1%</span><span className="tm-l">of all mentors</span></div>
+        </div>
+        <a className="tm-cta" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener">book a session on topmate <i>↗</i></a>
+      </div>
+      <div className="tm-badges ai-rv">
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Top 0.1% — Best of Best">
+          <img src="/assets/topmate/top01.png" alt="Top 0.1% mentor badge" loading="lazy" />
+          <span className="tm-bt">top 0.1%</span><span className="tm-bs">best of best</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Top 1% — 25 bookings">
+          <img src="/assets/topmate/top1.png" alt="Top 1% mentor badge" loading="lazy" />
+          <span className="tm-bt">top 1%</span><span className="tm-bs">25 bookings</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="People's Choice — 5 bookings">
+          <img src="/assets/topmate/peoples-choice.png" alt="People's Choice badge" loading="lazy" />
+          <span className="tm-bt">people's choice</span><span className="tm-bs">5 bookings</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Hustler — Top Earners">
+          <img src="/assets/topmate/hustler.png" alt="Hustler badge" loading="lazy" />
+          <span className="tm-bt">hustler</span><span className="tm-bs">top earners</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Curator — sold a product">
+          <img src="/assets/topmate/curator.png" alt="Curator badge" loading="lazy" />
+          <span className="tm-bt">curator</span><span className="tm-bs">sold a product</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Community Care — hosted a free 1:1">
+          <img src="/assets/topmate/community-care.png" alt="Community Care badge" loading="lazy" />
+          <span className="tm-bt">community care</span><span className="tm-bs">free 1:1 host</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Top 5% — 10 bookings">
+          <img src="/assets/topmate/top5.png" alt="Top 5% mentor badge" loading="lazy" />
+          <span className="tm-bt">top 5%</span><span className="tm-bs">10 bookings</span>
+        </a>
+        <a className="tm-badge" href="https://topmate.io/dinesh_katal" target="_blank" rel="noopener" title="Debut '25 / '26 — joined in 2025-26">
+          <img src="/assets/topmate/debut2526.png" alt="Debut 2025-26 badge" loading="lazy" />
+          <span className="tm-bt">debut '25/'26</span><span className="tm-bs">class of 2025-26</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -608,12 +693,12 @@ export default function Page() {
   var host=document.getElementById('bees'); if(!host) return;
   var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
   var mob=innerWidth<=720;
-  /* each bee is a floating "idea" → a real case study from dinesh.design */
+  /* each bee is a floating "idea" → a real open-source project */
   var CASES=[
-    {tag:'EDTECH COURSE', metric:'150% lead boost',   prob:'low enrollment conversion',     ttl:'HubSpot EdTech growth campaign.',            href:'/case-mashreq'},
-    {tag:'TRADING PLATFORM', metric:'85% signal accuracy', prob:'inefficient order entry',   ttl:'automated trading & SMA averages.',     href:'/case-fxonline'},
-    {tag:'ATS RESUME ENGINE', metric:'2,000+ resumes',  prob:'candidates fail ATS checks',    ttl:'ATS resume scoring parser via NLP.',      href:'/case-business'},
-    {tag:'PHARMA INNOVATION', metric:'60% expired reduction', prob:'expired drug usage risk', ttl:'TIMETINT color-changing label.',    href:'/case-smarttrade'}
+    {tag:'AGENTIC AI', metric:'multi-agent harness',  prob:'agents that can't cooperate',   ttl:'Fried Viper agent hostel.',            href:'https://github.com/Dinesh-codeswell/fried-viper'},
+    {tag:'CREATIVE CODE', metric:'1080p renders', prob:'manual lyric-video editing',   ttl:'Lyrical video render suite.',     href:'https://github.com/Dinesh-codeswell/lyrical-video'},
+    {tag:'MUSIC INTELLIGENCE', metric:'zero-auth scrapers',  prob:'artist data locked in platforms',    ttl:'Music profile scraper & EPK.',      href:'https://github.com/Dinesh-codeswell/music-profile-scraper'},
+    {tag:'ALGO TRADING', metric:'85% signal accuracy', prob:'manual forex charting', ttl:'Automated forex trading system.',    href:'https://github.com/Dinesh-codeswell/Data-analytics-Projects/tree/main/forex%20trading/current'}
   ];
   var W=innerWidth,H=innerHeight,N=mob?3:4,bees=[],ORIG=[[43,57],[43,56],[34,47]];
   /* phones: keep bees down near the meadow (anchored to the bottom) so they never drift across the hero copy, whatever the viewport height */
@@ -1075,7 +1160,7 @@ export default function Page() {
    setTodActive(window.gvTOD||'day');
  }
 })();` }} />
-<Script id="script-home-20" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){var el=document.getElementById('gfClock');if(!el)return;function t(){try{el.textContent=new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/Los_Angeles'});}catch(e){el.textContent=new Date().toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});}}t();setInterval(t,15000);})();` }} />
+<Script id="script-home-20" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){var el=document.getElementById('gfClock');if(!el)return;function t(){try{el.textContent=new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'Asia/Kolkata'});}catch(e){el.textContent=new Date().toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});}}t();setInterval(t,15000);})();` }} />
 <Script id="script-home-21" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){
   var gal=document.getElementById('cgal'); if(!gal) return;
   var items=[].slice.call(gal.querySelectorAll('.cgal-item')); if(!items.length) return;
@@ -1187,19 +1272,6 @@ export default function Page() {
     ScrollTrigger.refresh();
   }
 })();` }} />
-<Script id="script-home-26" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(){var RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
-document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
-  var drag=false,pause=0,t=0;
-  function set(p){p=Math.max(4,Math.min(96,p));cmp.style.setProperty('--pos',p+'%');}
-  function fromX(x){var r=cmp.getBoundingClientRect();return (x-r.left)/r.width*100;}
-  cmp.addEventListener('pointerdown',function(e){drag=true;cmp.classList.add('dragging');try{cmp.setPointerCapture(e.pointerId);}catch(_){}set(fromX(e.clientX));e.preventDefault();e.stopPropagation();});
-  cmp.addEventListener('pointermove',function(e){if(drag)set(fromX(e.clientX));});
-  function end(){if(drag){drag=false;cmp.classList.remove('dragging');pause=performance.now()+2800;}}
-  cmp.addEventListener('pointerup',end);cmp.addEventListener('pointercancel',end);
-  cmp.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();});
-  if(!RM){function loop(now){if(!drag&&now>pause){t+=0.016;set(50+22*Math.sin(t));}requestAnimationFrame(loop);}requestAnimationFrame(loop);}
-});})();` }} />
-
 <Script id="script-home-27" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `/* selected-work filters: view-transition morph, Apple-quiet */
 (function(){
   var wrap=document.getElementById('swFilters'); if(!wrap) return;
@@ -1349,9 +1421,9 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
         <p className="ground-sub">care about <b>design</b>, <b>impact</b>, and products that actually ship? you know where to find me.</p>
       </div>
       <nav className="gf-cols" aria-label="footer">
-        <div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="/blog">blogs</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div>
+        <div className="gf-col"><span className="gf-h">explore</span><a href="/work">work</a><a href="/beyond">lil about me</a><a href="assets/files/Dinesh_Resume.pdf" target="_blank" rel="noopener">résumé ↓</a></div>
         <div className="gf-col"><span className="gf-h">connect</span><a className="cal-pop calfun" href="https://calendly.com/dineshkatal-work/book-1-1-session" target="_blank" rel="noopener">schedule a call ↗</a><a href="https://www.linkedin.com/in/dineshkatal/" target="_blank" rel="noopener">linkedin ↗</a><a href="mailto:dineshkatal.work@gmail.com">email ↗</a></div>
-        <div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time <b id="gfClock">2:31 AM</b></span></div>
+        <div className="gf-col"><span className="gf-h">status</span><span className="gf-avail"><i></i> open to new work</span><span className="gf-line">based in Gurugram, India</span><span className="gf-line">local time · IST <b id="gfClock">—</b></span></div>
       </nav>
     </div>
     <div className="gf-bar">
@@ -2221,7 +2293,58 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
   .logos-track img[src*="flooff"]{height:32px;}
   .logos-track .logo-txt{flex:0 0 auto;font-family:var(--font-display);font-weight:400;font-size:26px;letter-spacing:.03em;color:#fff;opacity:.9;white-space:nowrap;}
   body.litcopy .logos-kick{}
-  @media(prefers-reduced-motion:reduce){.logos-track{animation:none;flex-wrap:wrap;justify-content:center;width:auto;max-width:1180px;gap:34px 56px;}}` }} />
+  @media(prefers-reduced-motion:reduce){.logos-track{animation:none;flex-wrap:wrap;justify-content:center;width:auto;max-width:1180px;gap:34px 56px;}}
+
+  /* ── live project demo tiles (pure CSS, no external assets) ── */
+  .sw-media.app{display:grid;place-items:center;background:linear-gradient(150deg,rgba(22,32,43,.9),rgba(8,22,48,.96));}
+  .proj-demo{width:100%;height:100%;position:relative;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:clamp(18px,2.6vw,30px);overflow:hidden;font-family:var(--font-mono);color:#fff;}
+  /* fried viper — agent terminal */
+  .pd-viper{gap:7px;justify-content:flex-start;padding-top:clamp(22px,3vw,34px);}
+  .pd-term{display:flex;flex-direction:column;gap:7px;width:100%;}
+  .pd-bar{display:flex;align-items:center;gap:5px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.14);}
+  .pd-bar i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.25);}
+  .pd-bar i:first-child{background:#ff8f8f;}.pd-bar i:nth-child(2){background:#ffd95b;}.pd-bar i:nth-child(3){background:#5fd29a;}
+  .pd-bar span{margin-left:7px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .pd-agent{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.03em;color:rgba(255,255,255,.85);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:6px 10px;}
+  .pd-dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;}
+  .pd-dot.d1{background:#5fd29a;box-shadow:0 0 8px rgba(95,210,154,.8);animation:pdBlink 1.8s ease-in-out infinite;}
+  .pd-dot.d2{background:#ffd95b;box-shadow:0 0 8px rgba(255,217,91,.7);animation:pdBlink 1.8s .6s ease-in-out infinite;}
+  .pd-dot.d3{background:#7db8ff;box-shadow:0 0 8px rgba(125,184,255,.7);animation:pdBlink 1.8s 1.2s ease-in-out infinite;}
+  @keyframes pdBlink{0%,100%{opacity:.45}50%{opacity:1}}
+  .pd-msg{color:rgba(255,255,255,.55);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .pd-cursor{font-size:13px;color:#5fd29a;animation:pdBlink 1s steps(1) infinite;}
+  /* lyrical video — waveform + synced line */
+  .pd-lyric{align-items:center;text-align:center;}
+  .pd-bars{display:flex;align-items:flex-end;gap:5px;height:44px;}
+  .pd-bars i{width:7px;border-radius:3px;background:linear-gradient(180deg,#7db8ff,#0083E7);animation:pdEq 1.15s ease-in-out infinite alternate;}
+  .pd-bars i:nth-child(odd){height:60%;}
+  .pd-bars i:nth-child(even){height:92%;animation-duration:.9s;}
+  @keyframes pdEq{from{transform:scaleY(.45)}to{transform:scaleY(1.12)}}
+  .pd-line{font-size:12.5px;letter-spacing:.06em;color:rgba(255,255,255,.45);transition:color .3s;}
+  .pd-line.on{color:#fff;text-shadow:0 0 14px rgba(125,184,255,.9);}
+  .pd-1080{position:absolute;right:14px;top:12px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 9px;}
+  /* music profile — profile card */
+  .pd-music{gap:14px;}
+  .pd-profile{display:flex;align-items:center;gap:12px;}
+  .pd-av{flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#7db8ff,#0083E7 70%);box-shadow:0 8px 20px rgba(0,131,231,.4);}
+  .pd-profile b{display:block;font-family:var(--font-display);font-weight:700;font-size:15px;letter-spacing:-.01em;}
+  .pd-profile small{display:block;margin-top:3px;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55);}
+  .pd-chips{display:flex;flex-wrap:wrap;gap:6px;}
+  .pd-chips span{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:4px 10px;}
+  /* aniquest — poster grid + command palette */
+  .pd-ani{gap:12px;}
+  .pd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:100%;}
+  .pd-grid i{aspect-ratio:3/4;border-radius:7px;background:linear-gradient(145deg,rgba(125,184,255,.55),rgba(0,131,231,.28));border:1px solid rgba(255,255,255,.16);}
+  .pd-grid i:nth-child(2){background:linear-gradient(145deg,rgba(255,217,91,.5),rgba(255,143,143,.3));}
+  .pd-grid i:nth-child(3){background:linear-gradient(145deg,rgba(95,210,154,.5),rgba(0,131,231,.25));}
+  .pd-grid i:nth-child(6){background:linear-gradient(145deg,rgba(255,255,255,.3),rgba(125,184,255,.2));}
+  .pd-cmd{width:100%;font-size:10.5px;letter-spacing:.05em;color:rgba(255,255,255,.72);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:9px;padding:8px 12px;}
+  .pd-cmd::before{content:"⌘ ";opacity:.6;}
+  /* forex — sparkline */
+  .pd-forex{gap:10px;}
+  .pd-forex svg{width:100%;height:clamp(64px,8vw,96px);}
+  .pd-buy{align-self:flex-start;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#5fd29a;border:1px solid rgba(95,210,154,.5);border-radius:999px;padding:4px 10px;background:rgba(95,210,154,.1);}
+  @media(prefers-reduced-motion:reduce){.pd-bars i,.pd-dot,.pd-cursor{animation:none!important;}}` }} />
 <style dangerouslySetInnerHTML={{ __html: `.ai-skills{position:relative;z-index:8;padding:var(--sp-section) 0;}
   .ai-skills .ai-wrap{max-width:1180px;}
   .skills-grid{display:grid;grid-template-columns:minmax(170px,290px) 1fr;gap:clamp(28px,5vw,88px);align-items:start;}
@@ -2251,7 +2374,7 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
     .skill-tools{color:rgba(255,255,255,.78)!important;}
   }
   
-  /* Credentials & Championships Section */
+  /* Credentials & Championships — refined glass, timeline rail, medal tints */
   .ai-creds {
     position: relative;
     z-index: 8;
@@ -2263,16 +2386,15 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
   .creds-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: clamp(28px, 5vw, 64px);
+    gap: clamp(28px, 5vw, 72px);
     align-items: start;
   }
   .creds-col {
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
   .creds-col-ttl {
-    margin-bottom: 8px;
+    margin-bottom: 18px;
   }
   .creds-col-ttl h3 {
     font-family: var(--font-display);
@@ -2287,54 +2409,90 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
     font-style: italic;
     color: var(--accent);
   }
+  /* vertical rail threading the cards together */
+  .creds-rail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 26px;
+  }
+  .creds-rail::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 14px;
+    bottom: 14px;
+    width: 1.5px;
+    background: linear-gradient(180deg, rgba(22,32,43,.28), rgba(22,32,43,.06));
+    border-radius: 2px;
+  }
+  .creds-node {
+    position: absolute;
+    left: -26px;
+    top: 26px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 0 3px rgba(255,255,255,.55);
+  }
   .creds-card {
     position: relative;
-    background: rgba(255, 255, 255, 0.58);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-left: 3px solid var(--accent);
+    background: linear-gradient(165deg, rgba(255,255,255,.72), rgba(255,255,255,.44));
+    -webkit-backdrop-filter: blur(14px) saturate(1.3);
+    backdrop-filter: blur(14px) saturate(1.3);
+    border: 1px solid rgba(255,255,255,.75);
     border-radius: 16px;
-    padding: 24px 28px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 20px 40px -30px rgba(20, 42, 84, 0.15), 0 2px 8px -6px rgba(20, 42, 84, 0.08);
-    transition: transform .3s ease, box-shadow .3s ease;
+    padding: 20px 24px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 18px 38px -26px rgba(20,42,84,.28);
+    transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s ease, border-color .35s ease;
   }
   .creds-card:hover {
-    transform: translateY(-2px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 28px 50px -26px rgba(20, 42, 84, 0.22), 0 2px 8px -6px rgba(20, 42, 84, 0.12);
+    transform: translateY(-3px);
+    border-color: rgba(255,255,255,.95);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 26px 48px -24px rgba(20,42,84,.38);
   }
+  /* medal-tinted inner edge per tier */
+  .creds-card.medal-gold   { box-shadow: inset 0 1px 0 rgba(255,255,255,.8), inset 3px 0 0 rgba(198,160,74,.9), 0 18px 38px -26px rgba(20,42,84,.28); }
+  .creds-card.medal-silver { box-shadow: inset 0 1px 0 rgba(255,255,255,.8), inset 3px 0 0 rgba(154,160,166,.9), 0 18px 38px -26px rgba(20,42,84,.28); }
+  .creds-card.medal-bronze { box-shadow: inset 0 1px 0 rgba(255,255,255,.8), inset 3px 0 0 rgba(176,124,84,.9), 0 18px 38px -26px rgba(20,42,84,.28); }
   .creds-card-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     margin-bottom: 10px;
   }
   .creds-card-date {
     font-family: var(--font-mono);
     font-size: 10.5px;
-    letter-spacing: 0.1em;
+    letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--muted);
-    font-weight: bold;
+    color: var(--muted, var(--soft));
+    font-weight: 500;
   }
-  .creds-card-badge {
+  /* mono pill badges — no emoji; medal tiers get their metal tint */
+  .creds-card-badge,
+  .creds-medal {
     font-family: var(--font-mono);
     font-size: 9.5px;
-    letter-spacing: 0.06em;
+    letter-spacing: .1em;
     text-transform: uppercase;
     color: #fff;
     background: var(--accent);
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 4px 10px;
+    border-radius: 999px;
     font-weight: 500;
+    white-space: nowrap;
   }
-  .creds-card-badge.gold {
-    background: #c5a059;
-  }
-  .creds-card-badge.silver {
-    background: #9aa0a6;
-  }
+  .creds-card.medal-gold .creds-medal   { background: linear-gradient(180deg,#e8cf8e,#c6a04a); color:#1a1305; }
+  .creds-card.medal-silver .creds-medal { background: linear-gradient(180deg,#e3e6ea,#9aa0a6); color:#14181d; }
+  .creds-card.medal-bronze .creds-medal { background: linear-gradient(180deg,#d8a97f,#b07c54); color:#1d1208; }
   .creds-card-title {
     font-family: var(--font-display);
-    font-size: clamp(17px, 2vw, 21px);
+    font-size: clamp(17px, 2vw, 20px);
     font-weight: 700;
     color: var(--ink);
     line-height: 1.25;
@@ -2355,7 +2513,7 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
   @media(max-width: 820px) {
     .creds-grid {
       grid-template-columns: 1fr;
-      gap: 40px;
+      gap: 44px;
     }
   }
   ` }} />
@@ -2469,6 +2627,38 @@ document.querySelectorAll('[data-ghcmp]').forEach(function(cmp){
   body.nightsky .tmn-nm{color:#fff;}
   .tmn-rl{font-family:var(--font-mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--soft);margin-top:3px;line-height:1.35;}
   body.nightsky .tmn-rl{color:#bcc7b0;}` }} />
+<style dangerouslySetInnerHTML={{ __html: `/* topmate mentor band — glass intro + official badge grid */
+  .ai-topmate{position:relative;z-index:8;padding:var(--sp-section) 0;}
+  .ai-topmate .ai-wrap{max-width:1180px;}
+  .tm-grid{display:grid;grid-template-columns:minmax(280px,420px) 1fr;gap:clamp(28px,5vw,72px);align-items:center;}
+  .tm-intro .eyebrow{color:rgba(255,255,255,.85);}
+  .ai-topmate .ai-big,.ai-topmate .ai-big em{color:#fff;}
+  .tm-sub{font-size:15px;line-height:1.6;color:rgba(255,255,255,.85);margin-top:16px;max-width:380px;}
+  .tm-sub b{color:#fff;font-weight:600;}
+  .tm-nums{display:flex;gap:clamp(18px,2.6vw,34px);margin-top:24px;}
+  .tm-num{display:flex;flex-direction:column;gap:5px;}
+  .tm-n{font-family:var(--font-display);font-weight:900;font-size:clamp(24px,3vw,34px);line-height:1;color:#fff;font-variant-numeric:tabular-nums;letter-spacing:-.02em;}
+  .tm-n em{font-style:normal;font-weight:500;font-size:.48em;opacity:.7;margin-left:2px;}
+  .tm-l{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.62);}
+  .tm-cta{display:inline-flex;align-items:center;gap:9px;margin-top:26px;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:#16202b;background:#fff;border-radius:999px;padding:12px 20px;text-decoration:none;box-shadow:0 12px 26px -12px rgba(8,22,48,.5);transition:transform .3s var(--ease),box-shadow .3s var(--ease);}
+  .tm-cta:hover{transform:translateY(-2px);box-shadow:0 18px 34px -14px rgba(8,22,48,.55);}
+  .tm-cta i{font-style:normal;transition:transform .3s var(--ease);}
+  .tm-cta:hover i{transform:translate(2px,-2px);}
+  .tm-badges{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+  .tm-badge{display:flex;flex-direction:column;align-items:center;text-align:center;gap:7px;text-decoration:none;
+    background:rgba(255,255,255,.14);-webkit-backdrop-filter:blur(12px) saturate(1.25);backdrop-filter:blur(12px) saturate(1.25);
+    border:1px solid rgba(255,255,255,.3);border-radius:16px;padding:16px 10px 13px;
+    transition:transform .35s var(--ease),background .3s ease,border-color .3s ease,box-shadow .35s ease;}
+  .tm-badge:hover{transform:translateY(-5px);background:rgba(255,255,255,.22);border-color:rgba(255,255,255,.55);box-shadow:0 20px 40px -20px rgba(8,22,48,.5);}
+  .tm-badge img{width:64px;height:64px;border-radius:14px;box-shadow:0 10px 22px -8px rgba(8,22,48,.55);transition:transform .35s var(--ease);}
+  .tm-badge:hover img{transform:scale(1.08) rotate(-2deg);}
+  .tm-bt{font-family:var(--font-display);font-weight:700;font-size:12.5px;letter-spacing:-.01em;color:#fff;line-height:1.1;}
+  .tm-bs{font-family:var(--font-mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.6);}
+  body.nightsky .tm-badge{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.22);}
+  @media(max-width:900px){.tm-grid{grid-template-columns:1fr;}.tm-badges{grid-template-columns:repeat(4,1fr);}}
+  @media(max-width:560px){.tm-badges{grid-template-columns:repeat(2,1fr);}.tm-badge img{width:56px;height:56px;}}
+  @media(prefers-reduced-motion:reduce){.tm-badge,.tm-badge img,.tm-cta{transition:none;}}` }} />
 <style dangerouslySetInnerHTML={{ __html: `.cf-sec{position:relative;z-index:8;background:linear-gradient(180deg,#5d92d8 0%,#7eaee6 52%,#a7ccef 100%);padding:clamp(72px,12vh,140px) var(--edge,max(22px,8%));overflow:hidden;}
   .cf-wrap{max-width:1200px;margin:0 auto;}
   .cf-k{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.82);}
